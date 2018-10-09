@@ -124,6 +124,6 @@ form:
           0: PLUGIN_ADMIN.DISABLED
         validate:
           type: bool
-", "blueprints.yaml.twig", "/Users/gabrielescano/Documents/FactoriaF5/mye2o/grav-admin/user/plugins/devtools/components/theme/pure-blank/blueprints.yaml.twig");
+", "blueprints.yaml.twig", "/Applications/MAMP/htdocs/mye2o/grav-admin/user/plugins/devtools/components/theme/pure-blank/blueprints.yaml.twig");
     }
 }

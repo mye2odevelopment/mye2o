@@ -45,6 +45,6 @@ dropdown:
         return new Twig_Source("enabled: true
 dropdown:
   enabled: true
-", "theme.yaml.twig", "/Users/gabrielescano/Documents/FactoriaF5/mye2o/grav-admin/user/plugins/devtools/components/theme/pure-blank/theme.yaml.twig");
+", "theme.yaml.twig", "/Applications/MAMP/htdocs/mye2o/grav-admin/user/plugins/devtools/components/theme/pure-blank/theme.yaml.twig");
     }
 }

@@ -1,85 +1,85 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1538999803,
-    'checksum' => '8273b520f2cba8fc9081437f05f08035',
+    'timestamp' => 1539009666,
+    'checksum' => '648001769f033d19fcc42273c7c02817',
     'files' => [
         'user/config' => [
             'media' => [
                 'file' => 'user/config/media.yaml',
-                'modified' => 1538994998
+                'modified' => 1539000188
             ],
             'security' => [
                 'file' => 'user/config/security.yaml',
-                'modified' => 1538994997
+                'modified' => 1539000188
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1538386604
+                'modified' => 1539000188
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
-                'modified' => 1538994998
+                'modified' => 1539000188
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1538386604
+                'modified' => 1539009654
             ]
         ],
         'system/config' => [
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1538386604
+                'modified' => 1539000188
             ],
             'security' => [
                 'file' => 'system/config/security.yaml',
-                'modified' => 1538386604
+                'modified' => 1539000188
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1538386604
+                'modified' => 1539000188
             ],
             'streams' => [
                 'file' => 'system/config/streams.yaml',
-                'modified' => 1538386604
+                'modified' => 1539000188
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1538386604
+                'modified' => 1539000188
             ]
         ],
         'user/plugins' => [
             'plugins/markdown-notices' => [
                 'file' => 'user/plugins/markdown-notices/markdown-notices.yaml',
-                'modified' => 1538386604
+                'modified' => 1539000189
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/form.yaml',
-                'modified' => 1538386604
+                'modified' => 1539000189
             ],
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/admin.yaml',
-                'modified' => 1538386604
+                'modified' => 1539000188
             ],
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/problems.yaml',
-                'modified' => 1538386604
+                'modified' => 1539000189
             ],
             'plugins/devtools' => [
                 'file' => 'user/plugins/devtools/devtools.yaml',
-                'modified' => 1538999476
+                'modified' => 1539000189
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/error.yaml',
-                'modified' => 1538386604
+                'modified' => 1539000189
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/login.yaml',
-                'modified' => 1538386604
+                'modified' => 1539000189
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/email.yaml',
-                'modified' => 1538386604
+                'modified' => 1539000189
             ]
         ]
     ],
@@ -639,7 +639,7 @@ return [
                 'hide_in_urls' => false
             ],
             'pages' => [
-                'theme' => 'quark',
+                'theme' => 'mye2o-theme',
                 'order' => [
                     'by' => 'default',
                     'dir' => 'asc'

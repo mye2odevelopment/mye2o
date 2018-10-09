@@ -57,6 +57,6 @@ class __TwigTemplate_cf2fc48403fca7559b9af7d55ec73aac585b6f3e6841ea6dde674f46f03
 
 1. [](#new)
     * ChangeLog started...
-", "CHANGELOG.md.twig", "/Users/gabrielescano/Documents/FactoriaF5/mye2o/grav-admin/user/plugins/devtools/components/theme/pure-blank/CHANGELOG.md.twig");
+", "CHANGELOG.md.twig", "/Applications/MAMP/htdocs/mye2o/grav-admin/user/plugins/devtools/components/theme/pure-blank/CHANGELOG.md.twig");
     }
 }

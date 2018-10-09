@@ -66,6 +66,6 @@ The **{{ component.name|titleize }}** Theme is for [Grav CMS](http://github.com/
 ## Description
 
 {{ component.description }}
-", "README.md.twig", "/Users/gabrielescano/Documents/FactoriaF5/mye2o/grav-admin/user/plugins/devtools/components/theme/pure-blank/README.md.twig");
+", "README.md.twig", "/Applications/MAMP/htdocs/mye2o/grav-admin/user/plugins/devtools/components/theme/pure-blank/README.md.twig");
     }
 }

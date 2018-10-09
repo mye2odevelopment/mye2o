@@ -65,6 +65,6 @@ class {{ component.name|camelize }} extends Theme
 {
     // Access plugin events in this class
 }
-", "theme.php.twig", "/Users/gabrielescano/Documents/FactoriaF5/mye2o/grav-admin/user/plugins/devtools/components/theme/pure-blank/theme.php.twig");
+", "theme.php.twig", "/Applications/MAMP/htdocs/mye2o/grav-admin/user/plugins/devtools/components/theme/pure-blank/theme.php.twig");
     }
 }
