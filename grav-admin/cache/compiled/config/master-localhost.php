@@ -1,90 +1,99 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1539009666,
-    'checksum' => '648001769f033d19fcc42273c7c02817',
+    'timestamp' => 1539086424,
+    'checksum' => '1af4b23e565add30912688c36cbb52ce',
     'files' => [
         'user/config' => [
             'media' => [
                 'file' => 'user/config/media.yaml',
-                'modified' => 1539000188
+                'modified' => 1538999179
             ],
             'security' => [
                 'file' => 'user/config/security.yaml',
-                'modified' => 1539000188
+                'modified' => 1538999179
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1539000188
+                'modified' => 1538999179
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
-                'modified' => 1539000188
+                'modified' => 1538999179
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1539009654
+                'modified' => 1539080377
             ]
         ],
         'system/config' => [
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1539000188
+                'modified' => 1538999178
             ],
             'security' => [
                 'file' => 'system/config/security.yaml',
-                'modified' => 1539000188
+                'modified' => 1538999178
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1539000188
+                'modified' => 1538999178
             ],
             'streams' => [
                 'file' => 'system/config/streams.yaml',
-                'modified' => 1539000188
+                'modified' => 1538999178
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1539000188
+                'modified' => 1538999178
             ]
         ],
         'user/plugins' => [
-            'plugins/markdown-notices' => [
-                'file' => 'user/plugins/markdown-notices/markdown-notices.yaml',
-                'modified' => 1539000189
-            ],
-            'plugins/form' => [
-                'file' => 'user/plugins/form/form.yaml',
-                'modified' => 1539000189
-            ],
-            'plugins/admin' => [
-                'file' => 'user/plugins/admin/admin.yaml',
-                'modified' => 1539000188
-            ],
-            'plugins/problems' => [
-                'file' => 'user/plugins/problems/problems.yaml',
-                'modified' => 1539000189
+            'plugins/error' => [
+                'file' => 'user/plugins/error/error.yaml',
+                'modified' => 1538999180
             ],
             'plugins/devtools' => [
                 'file' => 'user/plugins/devtools/devtools.yaml',
-                'modified' => 1539000189
+                'modified' => 1538999398
             ],
-            'plugins/error' => [
-                'file' => 'user/plugins/error/error.yaml',
-                'modified' => 1539000189
+            'plugins/markdown-notices' => [
+                'file' => 'user/plugins/markdown-notices/markdown-notices.yaml',
+                'modified' => 1538999180
+            ],
+            'plugins/form' => [
+                'file' => 'user/plugins/form/form.yaml',
+                'modified' => 1538999180
+            ],
+            'plugins/admin' => [
+                'file' => 'user/plugins/admin/admin.yaml',
+                'modified' => 1538999179
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/login.yaml',
-                'modified' => 1539000189
+                'modified' => 1538999180
+            ],
+            'plugins/problems' => [
+                'file' => 'user/plugins/problems/problems.yaml',
+                'modified' => 1538999180
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/email.yaml',
-                'modified' => 1539000189
+                'modified' => 1538999179
             ]
         ]
     ],
     'data' => [
         'plugins' => [
+            'error' => [
+                'enabled' => true,
+                'routes' => [
+                    404 => '/error'
+                ]
+            ],
+            'devtools' => [
+                'enabled' => true
+            ],
             'markdown-notices' => [
                 'enabled' => true,
                 'built_in_css' => true,
@@ -173,19 +182,6 @@ return [
                     ]
                 ]
             ],
-            'problems' => [
-                'enabled' => true,
-                'built_in_css' => true
-            ],
-            'devtools' => [
-                'enabled' => true
-            ],
-            'error' => [
-                'enabled' => true,
-                'routes' => [
-                    404 => '/error'
-                ]
-            ],
             'login' => [
                 'enabled' => true,
                 'built_in_css' => true,
@@ -239,6 +235,10 @@ return [
                         'send_welcome_email' => false
                     ]
                 ]
+            ],
+            'problems' => [
+                'enabled' => true,
+                'built_in_css' => true
             ],
             'email' => [
                 'enabled' => true,

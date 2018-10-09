@@ -33,7 +33,7 @@ class __TwigTemplate_c2e8ebb18f42405499c02f810dc99bf183be00ee74e10854f9268405688
         echo "
     ";
         // line 5
-        $this->loadTemplate("partials/test.html.twig", "home.html.twig", 5)->display($context);
+        $this->loadTemplate("partials/home-skeleton.html.twig", "home.html.twig", 5)->display($context);
     }
 
     public function getTemplateName()
@@ -65,7 +65,7 @@ class __TwigTemplate_c2e8ebb18f42405499c02f810dc99bf183be00ee74e10854f9268405688
 
 {% block content %}
     {{ page.content }}
-    {% include 'partials/test.html.twig' %}
-{% endblock %}", "home.html.twig", "/Applications/MAMP/htdocs/mye2o/grav-admin/user/themes/mye2o-theme/templates/home.html.twig");
+    {% include 'partials/home-skeleton.html.twig' %}
+{% endblock %}", "home.html.twig", "/home/factoria/carpetagit/mye2o/grav-admin/user/themes/mye2o-theme/templates/home.html.twig");
     }
 }

@@ -36,32 +36,32 @@ class __TwigTemplate_7ad7daa9a8a1f1c3446899bbc057bb7d8d3c1fc89c2dacfa8edaa63542e
 ";
         // line 5
         $this->displayBlock('head', $context, $blocks);
-        // line 32
+        // line 33
         echo "</head>
 <body id=\"top\" class=\"";
-        // line 33
+        // line 34
         echo $this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", array()), "body_classes", array());
         echo "\">
 
 ";
-        // line 35
+        // line 36
         $this->displayBlock('header', $context, $blocks);
-        // line 50
-        echo "
-";
         // line 51
+        echo "
+";
+        // line 52
         $this->displayBlock('body', $context, $blocks);
-        // line 58
-        echo "
-";
         // line 59
-        $this->displayBlock('footer', $context, $blocks);
-        // line 66
         echo "
 ";
+        // line 60
+        $this->displayBlock('footer', $context, $blocks);
         // line 67
+        echo "
+";
+        // line 68
         $this->displayBlock('bottom', $context, $blocks);
-        // line 70
+        // line 71
         echo "
 </body>
 </html>
@@ -101,15 +101,15 @@ class __TwigTemplate_7ad7daa9a8a1f1c3446899bbc057bb7d8d3c1fc89c2dacfa8edaa63542e
     ";
         // line 16
         $this->displayBlock('stylesheets', $context, $blocks);
-        // line 23
+        // line 24
         echo "    ";
         echo $this->getAttribute(($context["assets"] ?? null), "css", array(), "method");
         echo "
 
     ";
-        // line 25
+        // line 26
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 29
+        // line 30
         echo "    ";
         echo $this->getAttribute(($context["assets"] ?? null), "js", array(), "method");
         echo "
@@ -131,89 +131,92 @@ class __TwigTemplate_7ad7daa9a8a1f1c3446899bbc057bb7d8d3c1fc89c2dacfa8edaa63542e
         $this->getAttribute(($context["assets"] ?? null), "addCss", array(0 => "theme://css/reset.css", 1 => 99), "method");
         // line 20
         echo "        ";
-        $this->getAttribute(($context["assets"] ?? null), "addCss", array(0 => "theme://css/custom.css", 1 => 98), "method");
+        $this->getAttribute(($context["assets"] ?? null), "addCss", array(0 => "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"), "method");
         // line 21
         echo "        ";
-        $this->getAttribute(($context["assets"] ?? null), "addCss", array(0 => "theme://css/style.css", 1 => 97), "method");
+        $this->getAttribute(($context["assets"] ?? null), "addCss", array(0 => "theme://css/custom.css", 1 => 98), "method");
         // line 22
+        echo "        ";
+        $this->getAttribute(($context["assets"] ?? null), "addCss", array(0 => "theme://css/style.css", 1 => 97), "method");
+        // line 23
         echo "    ";
     }
 
-    // line 25
+    // line 26
     public function block_javascripts($context, array $blocks = array())
     {
-        // line 26
-        echo "        ";
-        $this->getAttribute(($context["assets"] ?? null), "addJs", array(0 => "jquery", 1 => 100), "method");
         // line 27
         echo "        ";
-        $this->getAttribute(($context["assets"] ?? null), "addJs", array(0 => "theme://js/app.js", 1 => 99), "method");
+        $this->getAttribute(($context["assets"] ?? null), "addJs", array(0 => "jquery", 1 => 100), "method");
         // line 28
+        echo "        ";
+        $this->getAttribute(($context["assets"] ?? null), "addJs", array(0 => "theme://js/app.js", 1 => 99), "method");
+        // line 29
         echo "    ";
     }
 
-    // line 35
+    // line 36
     public function block_header($context, array $blocks = array())
     {
-        // line 36
+        // line 37
         echo "    <div class=\"header\">
         <div class=\"wrapper padding\">
             <a class=\"logo left\" href=\"";
-        // line 38
+        // line 39
         echo (((($context["base_url"] ?? null) == "")) ? ("/") : (($context["base_url"] ?? null)));
         echo "\">
                 <i class=\"fa fa-rebel\"></i>
                 ";
-        // line 40
+        // line 41
         echo $this->getAttribute($this->getAttribute(($context["config"] ?? null), "site", array()), "title", array());
         echo "
             </a>
             ";
-        // line 42
+        // line 43
         $this->displayBlock('header_navigation', $context, $blocks);
-        // line 47
+        // line 48
         echo "        </div>
     </div>
 ";
     }
 
-    // line 42
+    // line 43
     public function block_header_navigation($context, array $blocks = array())
     {
-        // line 43
+        // line 44
         echo "            <nav class=\"main-nav\">
                 ";
-        // line 44
-        $this->loadTemplate("partials/navigation.html.twig", "partials/base.html.twig", 44)->display($context);
         // line 45
+        $this->loadTemplate("partials/navigation.html.twig", "partials/base.html.twig", 45)->display($context);
+        // line 46
         echo "            </nav>
             ";
     }
 
-    // line 51
+    // line 52
     public function block_body($context, array $blocks = array())
     {
-        // line 52
+        // line 53
         echo "    <section id=\"body\">
         <div class=\"wrapper padding\">
         ";
-        // line 54
-        $this->displayBlock('content', $context, $blocks);
         // line 55
+        $this->displayBlock('content', $context, $blocks);
+        // line 56
         echo "        </div>
     </section>
 ";
     }
 
-    // line 54
+    // line 55
     public function block_content($context, array $blocks = array())
     {
     }
 
-    // line 59
+    // line 60
     public function block_footer($context, array $blocks = array())
     {
-        // line 60
+        // line 61
         echo "    <div class=\"footer text-center\">
         <div class=\"wrapper padding\">
             <p><a href=\"http://getgrav.org\">Grav</a> was <i class=\"fa fa-code\"></i> with <i class=\"fa fa-heart\"></i> by <a href=\"http://www.rockettheme.com\">RocketTheme</a>.</p>
@@ -222,10 +225,10 @@ class __TwigTemplate_7ad7daa9a8a1f1c3446899bbc057bb7d8d3c1fc89c2dacfa8edaa63542e
 ";
     }
 
-    // line 67
+    // line 68
     public function block_bottom($context, array $blocks = array())
     {
-        // line 68
+        // line 69
         echo "    ";
         echo $this->getAttribute(($context["assets"] ?? null), "js", array(0 => "bottom"), "method");
         echo "
@@ -244,7 +247,7 @@ class __TwigTemplate_7ad7daa9a8a1f1c3446899bbc057bb7d8d3c1fc89c2dacfa8edaa63542e
 
     public function getDebugInfo()
     {
-        return array (  229 => 68,  226 => 67,  217 => 60,  214 => 59,  209 => 54,  203 => 55,  201 => 54,  197 => 52,  194 => 51,  189 => 45,  187 => 44,  184 => 43,  181 => 42,  175 => 47,  173 => 42,  168 => 40,  163 => 38,  159 => 36,  156 => 35,  152 => 28,  149 => 27,  146 => 26,  143 => 25,  139 => 22,  136 => 21,  133 => 20,  130 => 19,  127 => 18,  124 => 17,  121 => 16,  113 => 29,  111 => 25,  105 => 23,  103 => 16,  98 => 14,  94 => 13,  91 => 12,  89 => 11,  78 => 7,  75 => 6,  72 => 5,  65 => 70,  63 => 67,  60 => 66,  58 => 59,  55 => 58,  53 => 51,  50 => 50,  48 => 35,  43 => 33,  40 => 32,  38 => 5,  33 => 3,  30 => 2,  28 => 1,);
+        return array (  232 => 69,  229 => 68,  220 => 61,  217 => 60,  212 => 55,  206 => 56,  204 => 55,  200 => 53,  197 => 52,  192 => 46,  190 => 45,  187 => 44,  184 => 43,  178 => 48,  176 => 43,  171 => 41,  166 => 39,  162 => 37,  159 => 36,  155 => 29,  152 => 28,  149 => 27,  146 => 26,  142 => 23,  139 => 22,  136 => 21,  133 => 20,  130 => 19,  127 => 18,  124 => 17,  121 => 16,  113 => 30,  111 => 26,  105 => 24,  103 => 16,  98 => 14,  94 => 13,  91 => 12,  89 => 11,  78 => 7,  75 => 6,  72 => 5,  65 => 71,  63 => 68,  60 => 67,  58 => 60,  55 => 59,  53 => 52,  50 => 51,  48 => 36,  43 => 34,  40 => 33,  38 => 5,  33 => 3,  30 => 2,  28 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -276,6 +279,7 @@ class __TwigTemplate_7ad7daa9a8a1f1c3446899bbc057bb7d8d3c1fc89c2dacfa8edaa63542e
         {% do assets.addCss('https://unpkg.com/purecss@1.0.0/build/pure-min.css', 100) %}
         {% do assets.addCss('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', 99) %}
         {% do assets.addCss('theme://css/reset.css', 99) %}
+        {% do assets.addCss('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css') %}
         {% do assets.addCss('theme://css/custom.css', 98) %}
         {% do assets.addCss('theme://css/style.css', 97) %}
     {% endblock %}
@@ -329,6 +333,6 @@ class __TwigTemplate_7ad7daa9a8a1f1c3446899bbc057bb7d8d3c1fc89c2dacfa8edaa63542e
 
 </body>
 </html>
-", "partials/base.html.twig", "/Applications/MAMP/htdocs/mye2o/grav-admin/user/themes/mye2o-theme/templates/partials/base.html.twig");
+", "partials/base.html.twig", "/home/factoria/carpetagit/mye2o/grav-admin/user/themes/mye2o-theme/templates/partials/base.html.twig");
     }
 }
