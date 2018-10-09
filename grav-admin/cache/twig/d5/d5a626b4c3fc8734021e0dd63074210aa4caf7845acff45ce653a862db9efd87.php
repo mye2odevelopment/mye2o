@@ -16,14 +16,13 @@ class __TwigTemplate_415e9458736c54b0944833ee672d183d169a8dae2ec13296369df3f501d
     protected function doDisplay(array $context, array $blocks = array())
     {
         // line 1
-        echo "<div>
-    <img src=\"";
-        // line 2
-        echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->urlFunc("theme://images/logo.png");
-        echo "\">
-</div>
-
-<h1> proviamo a scirvere adesso fdsgshthrgsd</h1>";
+        echo "
+        <nav aria-colspan=\"breadcrumb\"></nav>
+        <ol class=\"breadcrumb bg-white\">
+            <li class=\"breadcrumb-item\"><a class=\"categoriaBread\" href=\"#\">CATEGORIAS</a></li>
+            <li class=\"breadcrumb-item currentCategoria\" aria-current=\"page\">PROFESIONALES</li>
+        </ol>
+        </nav>";
     }
 
     public function getTemplateName()
@@ -31,14 +30,9 @@ class __TwigTemplate_415e9458736c54b0944833ee672d183d169a8dae2ec13296369df3f501d
         return "partials/basic-ficha.html.twig";
     }
 
-    public function isTraitable()
-    {
-        return false;
-    }
-
     public function getDebugInfo()
     {
-        return array (  22 => 2,  19 => 1,);
+        return array (  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -51,10 +45,12 @@ class __TwigTemplate_415e9458736c54b0944833ee672d183d169a8dae2ec13296369df3f501d
 
     public function getSourceContext()
     {
-        return new Twig_Source("<div>
-    <img src=\"{{ url ('theme://images/logo.png') }}\">
-</div>
-
-<h1> proviamo a scirvere adesso fdsgshthrgsd</h1>", "partials/basic-ficha.html.twig", "/Applications/MAMP/htdocs/mye2o/grav-admin/user/themes/mye2o-theme/templates/partials/basic-ficha.html.twig");
+        return new Twig_Source("
+        <nav aria-colspan=\"breadcrumb\"></nav>
+        <ol class=\"breadcrumb bg-white\">
+            <li class=\"breadcrumb-item\"><a class=\"categoriaBread\" href=\"#\">CATEGORIAS</a></li>
+            <li class=\"breadcrumb-item currentCategoria\" aria-current=\"page\">PROFESIONALES</li>
+        </ol>
+        </nav>", "partials/basic-ficha.html.twig", "/Applications/MAMP/htdocs/mye2o/grav-admin/user/themes/mye2o-theme/templates/partials/basic-ficha.html.twig");
     }
 }

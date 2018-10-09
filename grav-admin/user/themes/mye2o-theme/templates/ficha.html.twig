@@ -1,5 +1,9 @@
 {% extends 'partials/base.html.twig' %}
 
+{% block stylesheets %}
+    {% do assets.addCss('theme://css-compiled/ficha.css', 95) %}
+    {{ parent() }}
+{% endblock %}
 {% block content %}
     {% include 'partials/basic-ficha.html.twig' %}
     {{ page.content }}

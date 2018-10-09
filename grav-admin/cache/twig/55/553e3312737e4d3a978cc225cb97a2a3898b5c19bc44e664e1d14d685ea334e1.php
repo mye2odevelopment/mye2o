@@ -1,16 +1,15 @@
 <?php
 
-/* ficha.html.twig */
-class __TwigTemplate_cecf0bc7e58fe4d52c48795e5cd446b868c8191c7aa4d5ef352fcc41c295a6b3 extends Twig_Template
+/* error.html.twig */
+class __TwigTemplate_4764d904346a540a7c3bb671e75c76768664a142d350df336de9da4a64465c99 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
         parent::__construct($env);
 
         // line 1
-        $this->parent = $this->loadTemplate("partials/base.html.twig", "ficha.html.twig", 1);
+        $this->parent = $this->loadTemplate("partials/base.html.twig", "error.html.twig", 1);
         $this->blocks = array(
-            'stylesheets' => array($this, 'block_stylesheets'),
             'content' => array($this, 'block_content'),
         );
     }
@@ -26,34 +25,22 @@ class __TwigTemplate_cecf0bc7e58fe4d52c48795e5cd446b868c8191c7aa4d5ef352fcc41c29
     }
 
     // line 3
-    public function block_stylesheets($context, array $blocks = array())
-    {
-        // line 4
-        echo "    ";
-        $this->getAttribute(($context["assets"] ?? null), "addCss", array(0 => "theme://css-compiled/ficha.css", 1 => 95), "method");
-        // line 5
-        echo "    ";
-        $this->displayParentBlock("stylesheets", $context, $blocks);
-        echo "
-";
-    }
-
-    // line 7
     public function block_content($context, array $blocks = array())
     {
-        // line 8
-        echo "    ";
-        $this->loadTemplate("partials/basic-ficha.html.twig", "ficha.html.twig", 8)->display($context);
-        // line 9
-        echo "    ";
+        // line 4
+        echo "    <div class=\"lead text-center\">
+        <h1>Error!</h1>
+        ";
+        // line 6
         echo $this->getAttribute(($context["page"] ?? null), "content", array());
         echo "
+    </div>
 ";
     }
 
     public function getTemplateName()
     {
-        return "ficha.html.twig";
+        return "error.html.twig";
     }
 
     public function isTraitable()
@@ -63,7 +50,7 @@ class __TwigTemplate_cecf0bc7e58fe4d52c48795e5cd446b868c8191c7aa4d5ef352fcc41c29
 
     public function getDebugInfo()
     {
-        return array (  48 => 9,  45 => 8,  42 => 7,  35 => 5,  32 => 4,  29 => 3,  11 => 1,);
+        return array (  35 => 6,  31 => 4,  28 => 3,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -78,13 +65,12 @@ class __TwigTemplate_cecf0bc7e58fe4d52c48795e5cd446b868c8191c7aa4d5ef352fcc41c29
     {
         return new Twig_Source("{% extends 'partials/base.html.twig' %}
 
-{% block stylesheets %}
-    {% do assets.addCss('theme://css-compiled/ficha.css', 95) %}
-    {{ parent() }}
-{% endblock %}
 {% block content %}
-    {% include 'partials/basic-ficha.html.twig' %}
-    {{ page.content }}
-{% endblock %}", "ficha.html.twig", "/Applications/MAMP/htdocs/mye2o/grav-admin/user/themes/mye2o-theme/templates/ficha.html.twig");
+    <div class=\"lead text-center\">
+        <h1>Error!</h1>
+        {{ page.content }}
+    </div>
+{% endblock %}
+", "error.html.twig", "/Applications/MAMP/htdocs/mye2o/grav-admin/user/themes/mye2o-theme/templates/error.html.twig");
     }
 }

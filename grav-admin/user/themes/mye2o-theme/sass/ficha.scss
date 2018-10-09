@@ -1,0 +1,31 @@
+
+
+    
+    /* breadcrumbs start*/
+    
+    .breadcrumb {
+        background-color: white;
+        margin: 20px;
+        font-size: 20px;
+        color: #646464;    
+    
+    }
+    
+    .breadcrumb li a{
+        font-family: 'Raleway', sans-serif;
+        color: #646464;
+    }
+    /* main category */
+    .categoriaBread {
+        font-size: 20px;
+    }
+    /* current category */
+    .currentCategoria {
+        font-size: 17px;
+        text-align: bottom;
+        margin-top: 2.5px;
+        font-style: italic;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    /* breadcrumbs end*/
