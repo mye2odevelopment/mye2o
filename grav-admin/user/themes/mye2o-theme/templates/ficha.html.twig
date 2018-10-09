@@ -1,5 +1,10 @@
 {% extends 'partials/base.html.twig' %}
 
+{% block stylesheets %}
+    {% do assets.addCss('theme://css-compiled/home.css', 95) %}
+    {{ parent() }}
+{% endblock %}
+
 {% block content %}
     {% include 'partials/basic-ficha.html.twig' %}
     {{ page.content }}
