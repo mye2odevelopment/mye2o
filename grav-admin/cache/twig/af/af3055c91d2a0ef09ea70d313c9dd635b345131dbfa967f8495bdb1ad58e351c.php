@@ -30,7 +30,7 @@ class __TwigTemplate_cecf0bc7e58fe4d52c48795e5cd446b868c8191c7aa4d5ef352fcc41c29
     {
         // line 4
         echo "    ";
-        $this->getAttribute(($context["assets"] ?? null), "addCss", array(0 => "theme://css-compiled/ficha.css", 1 => 95), "method");
+        $this->getAttribute(($context["assets"] ?? null), "addCss", array(0 => "theme://css-compiled/ficha.css", 1 => 99), "method");
         // line 5
         echo "    ";
         $this->displayParentBlock("stylesheets", $context, $blocks);
@@ -79,12 +79,12 @@ class __TwigTemplate_cecf0bc7e58fe4d52c48795e5cd446b868c8191c7aa4d5ef352fcc41c29
         return new Twig_Source("{% extends 'partials/base.html.twig' %}
 
 {% block stylesheets %}
-    {% do assets.addCss('theme://css-compiled/ficha.css', 95) %}
+    {% do assets.addCss('theme://css-compiled/ficha.css', 99) %}
     {{ parent() }}
 {% endblock %}
 {% block content %}
     {% include 'partials/basic-ficha.html.twig' %}
     {{ page.content }}
-{% endblock %}", "ficha.html.twig", "/home/factoria/carpetagit/mye2o/grav-admin/user/themes/mye2o-theme/templates/ficha.html.twig");
+{% endblock %}", "ficha.html.twig", "/Applications/MAMP/htdocs/mye2o/grav-admin/user/themes/mye2o-theme/templates/ficha.html.twig");
     }
 }

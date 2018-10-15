@@ -1,63 +1,63 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledBlueprints',
-    'timestamp' => 1539086424,
-    'checksum' => '349ed10e918ca0c9de4d53a1dd71b848',
+    'timestamp' => 1539095051,
+    'checksum' => 'f81b3d9592676c5c87bfbe77f52295b9',
     'files' => [
         'system/blueprints/config' => [
             'media' => [
                 'file' => 'system/blueprints/config/media.yaml',
-                'modified' => 1538999178
+                'modified' => 1539000188
             ],
             'security' => [
                 'file' => 'system/blueprints/config/security.yaml',
-                'modified' => 1538999178
+                'modified' => 1539000188
             ],
             'site' => [
                 'file' => 'system/blueprints/config/site.yaml',
-                'modified' => 1538999178
+                'modified' => 1539000188
             ],
             'streams' => [
                 'file' => 'system/blueprints/config/streams.yaml',
-                'modified' => 1538999178
+                'modified' => 1539000188
             ],
             'system' => [
                 'file' => 'system/blueprints/config/system.yaml',
-                'modified' => 1538999178
+                'modified' => 1539000188
             ]
         ],
         'user/plugins' => [
-            'plugins/error' => [
-                'file' => 'user/plugins/error/blueprints.yaml',
-                'modified' => 1538999180
-            ],
-            'plugins/devtools' => [
-                'file' => 'user/plugins/devtools/blueprints.yaml',
-                'modified' => 1538999398
-            ],
             'plugins/markdown-notices' => [
                 'file' => 'user/plugins/markdown-notices/blueprints.yaml',
-                'modified' => 1538999180
+                'modified' => 1539000189
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/blueprints.yaml',
-                'modified' => 1538999180
+                'modified' => 1539000189
             ],
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/blueprints.yaml',
-                'modified' => 1538999179
-            ],
-            'plugins/login' => [
-                'file' => 'user/plugins/login/blueprints.yaml',
-                'modified' => 1538999180
+                'modified' => 1539000188
             ],
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/blueprints.yaml',
-                'modified' => 1538999180
+                'modified' => 1539000189
+            ],
+            'plugins/devtools' => [
+                'file' => 'user/plugins/devtools/blueprints.yaml',
+                'modified' => 1539000189
+            ],
+            'plugins/error' => [
+                'file' => 'user/plugins/error/blueprints.yaml',
+                'modified' => 1539000189
+            ],
+            'plugins/login' => [
+                'file' => 'user/plugins/login/blueprints.yaml',
+                'modified' => 1539000189
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/blueprints.yaml',
-                'modified' => 1538999179
+                'modified' => 1539000189
             ]
         ]
     ],
@@ -1931,7 +1931,7 @@ return [
                 'name' => 'system.advanced',
                 'validation' => 'loose'
             ],
-            'plugins.error' => [
+            'plugins.markdown-notices' => [
                 'type' => '_root',
                 'form_field' => false,
                 'form' => [
@@ -1942,63 +1942,6 @@ return [
                 'type' => '_parent',
                 'name' => 'plugins',
                 'form_field' => false
-            ],
-            'plugins.error.enabled' => [
-                'type' => 'toggle',
-                'label' => 'PLUGIN_ADMIN.PLUGIN_STATUS',
-                'highlight' => 1,
-                'default' => 0,
-                'options' => [
-                    1 => 'PLUGIN_ADMIN.ENABLED',
-                    0 => 'PLUGIN_ADMIN.DISABLED'
-                ],
-                'validate' => [
-                    'type' => 'bool'
-                ],
-                'name' => 'plugins.error.enabled',
-                'validation' => 'strict'
-            ],
-            'plugins.error.routes' => [
-                'type' => '_parent',
-                'name' => 'plugins.error.routes',
-                'form_field' => false
-            ],
-            'plugins.error.routes.404' => [
-                'type' => 'text',
-                'size' => 'medium',
-                'label' => '404 Route',
-                'default' => '/error',
-                'name' => 'plugins.error.routes.404',
-                'validation' => 'strict'
-            ],
-            'plugins.devtools' => [
-                'type' => '_root',
-                'form_field' => false,
-                'form' => [
-                    'validation' => 'strict'
-                ]
-            ],
-            'plugins.devtools.enabled' => [
-                'type' => 'toggle',
-                'label' => 'PLUGIN_ADMIN.PLUGIN_STATUS',
-                'highlight' => 1,
-                'default' => 0,
-                'options' => [
-                    1 => 'PLUGIN_ADMIN.ENABLED',
-                    0 => 'PLUGIN_ADMIN.DISABLED'
-                ],
-                'validate' => [
-                    'type' => 'bool'
-                ],
-                'name' => 'plugins.devtools.enabled',
-                'validation' => 'strict'
-            ],
-            'plugins.markdown-notices' => [
-                'type' => '_root',
-                'form_field' => false,
-                'form' => [
-                    'validation' => 'strict'
-                ]
             ],
             'plugins.markdown-notices.enabled' => [
                 'type' => 'toggle',
@@ -2910,6 +2853,100 @@ return [
                 'name' => 'plugins.admin.popularity.history.visitors',
                 'validation' => 'loose'
             ],
+            'plugins.problems' => [
+                'type' => '_root',
+                'form_field' => false,
+                'form' => [
+                    'validation' => 'strict'
+                ]
+            ],
+            'plugins.problems.enabled' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_ADMIN.PLUGIN_STATUS',
+                'highlight' => 1,
+                'default' => 0,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.problems.enabled',
+                'validation' => 'strict'
+            ],
+            'plugins.problems.built_in_css' => [
+                'type' => 'toggle',
+                'label' => 'Use built in CSS',
+                'highlight' => 1,
+                'default' => 1,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.problems.built_in_css',
+                'validation' => 'strict'
+            ],
+            'plugins.devtools' => [
+                'type' => '_root',
+                'form_field' => false,
+                'form' => [
+                    'validation' => 'strict'
+                ]
+            ],
+            'plugins.devtools.enabled' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_ADMIN.PLUGIN_STATUS',
+                'highlight' => 1,
+                'default' => 0,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.devtools.enabled',
+                'validation' => 'strict'
+            ],
+            'plugins.error' => [
+                'type' => '_root',
+                'form_field' => false,
+                'form' => [
+                    'validation' => 'strict'
+                ]
+            ],
+            'plugins.error.enabled' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_ADMIN.PLUGIN_STATUS',
+                'highlight' => 1,
+                'default' => 0,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.error.enabled',
+                'validation' => 'strict'
+            ],
+            'plugins.error.routes' => [
+                'type' => '_parent',
+                'name' => 'plugins.error.routes',
+                'form_field' => false
+            ],
+            'plugins.error.routes.404' => [
+                'type' => 'text',
+                'size' => 'medium',
+                'label' => '404 Route',
+                'default' => '/error',
+                'name' => 'plugins.error.routes.404',
+                'validation' => 'strict'
+            ],
             'plugins.login' => [
                 'type' => '_root',
                 'form_field' => false,
@@ -3331,43 +3368,6 @@ return [
                 'class' => 'subtle',
                 'name' => 'plugins.login.tabs',
                 'validation' => 'loose'
-            ],
-            'plugins.problems' => [
-                'type' => '_root',
-                'form_field' => false,
-                'form' => [
-                    'validation' => 'strict'
-                ]
-            ],
-            'plugins.problems.enabled' => [
-                'type' => 'toggle',
-                'label' => 'PLUGIN_ADMIN.PLUGIN_STATUS',
-                'highlight' => 1,
-                'default' => 0,
-                'options' => [
-                    1 => 'PLUGIN_ADMIN.ENABLED',
-                    0 => 'PLUGIN_ADMIN.DISABLED'
-                ],
-                'validate' => [
-                    'type' => 'bool'
-                ],
-                'name' => 'plugins.problems.enabled',
-                'validation' => 'strict'
-            ],
-            'plugins.problems.built_in_css' => [
-                'type' => 'toggle',
-                'label' => 'Use built in CSS',
-                'highlight' => 1,
-                'default' => 1,
-                'options' => [
-                    1 => 'PLUGIN_ADMIN.ENABLED',
-                    0 => 'PLUGIN_ADMIN.DISABLED'
-                ],
-                'validate' => [
-                    'type' => 'bool'
-                ],
-                'name' => 'plugins.problems.built_in_css',
-                'validation' => 'strict'
             ],
             'plugins.email' => [
                 'type' => '_root',
@@ -3804,15 +3804,6 @@ return [
                 ]
             ],
             'plugins' => [
-                'error' => [
-                    'enabled' => 'plugins.error.enabled',
-                    'routes' => [
-                        404 => 'plugins.error.routes.404'
-                    ]
-                ],
-                'devtools' => [
-                    'enabled' => 'plugins.devtools.enabled'
-                ],
                 'markdown-notices' => [
                     'enabled' => 'plugins.markdown-notices.enabled',
                     'built_in_css' => 'plugins.markdown-notices.built_in_css',
@@ -3915,6 +3906,19 @@ return [
                         'days_of_stats' => 'plugins.admin.dashboard.days_of_stats'
                     ]
                 ],
+                'problems' => [
+                    'enabled' => 'plugins.problems.enabled',
+                    'built_in_css' => 'plugins.problems.built_in_css'
+                ],
+                'devtools' => [
+                    'enabled' => 'plugins.devtools.enabled'
+                ],
+                'error' => [
+                    'enabled' => 'plugins.error.enabled',
+                    'routes' => [
+                        404 => 'plugins.error.routes.404'
+                    ]
+                ],
                 'login' => [
                     'tabs' => 'plugins.login.tabs',
                     'login' => 'plugins.login.login',
@@ -3965,10 +3969,6 @@ return [
                     'max_pw_resets_interval' => 'plugins.login.max_pw_resets_interval',
                     'max_login_count' => 'plugins.login.max_login_count',
                     'max_login_interval' => 'plugins.login.max_login_interval'
-                ],
-                'problems' => [
-                    'enabled' => 'plugins.problems.enabled',
-                    'built_in_css' => 'plugins.problems.built_in_css'
                 ],
                 'email' => [
                     'enabled' => 'plugins.email.enabled',

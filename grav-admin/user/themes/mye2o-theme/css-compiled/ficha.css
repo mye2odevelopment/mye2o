@@ -6,7 +6,6 @@
   color: #646464; }
 
 .breadcrumb li a {
-  font-family: 'Raleway', sans-serif;
   color: #646464; }
 
 /* main category */
@@ -18,9 +17,105 @@
   font-size: 17px;
   text-align: bottom;
   margin-top: 2.5px;
-  font-style: italic;
-  font-family: 'Raleway', sans-serif; }
+  font-style: italic; }
 
 /* breadcrumbs end*/
+article {
+  color: #646464;
+  margin: 100px; }
+
+/* titol article */
+.text-right {
+  font-size: 38px;
+  color: #646464; }
+
+.author {
+  font-size: 18px;
+  margin-bottom: 60px;
+  color: #646464; }
+
+/* standard format text */
+.text-justify {
+  font-family: 'Raleway', sans-serif;
+  font-size: 21px;
+  color: #646464; }
+
+/* subtitle */
+.subtitle {
+  font-size: 18px;
+  margin-top: 30px;
+  padding: 11px; }
+
+/* ver mas scroll style */
+.verMas {
+  color: #4b4343;
+  font-size: 20px;
+  margin-left: 900px; }
+
+.verMas:hover {
+  color: #811313; }
+
+.content {
+  padding-top: 100px; }
+
+.textoUno {
+  color: #646464;
+  margin-top: 80px; }
+
+.map {
+  margin-left: 60px; }
+
+/* tags */
+.tagsOne {
+  color: #ea580b;
+  margin: 5px;
+  background-color: #ffffff; }
+
+.tagsTwo {
+  color: #eeeded;
+  margin: 5px;
+  background-color: #ea580b; }
+
+.testBackColor {
+  background-color: #C4C4C4;
+  color: white;
+  margin-top: 100px;
+  margin-bottom: 40px;
+  padding: 20px; }
+
+.textoDos {
+  color: #646464; }
+
+.tagGroupDos {
+  text-align: end;
+  /* font-family: 'Raleway', sans-serif; */ }
+
+/* last part text content */
+.thirdText {
+  margin-top: 100px; }
+
+/* section contact partner*/
+.contactPartner {
+  margin-top: 60px;
+  background-color: #C4C4C4;
+  height: 300px; }
+
+.contactaEntidadBottom {
+  padding: 30px;
+  font-size: 20px; }
+
+.form-group {
+  margin: 40px;
+  width: 680px; }
+
+.tomilloWhite {
+  padding-left: 50px;
+  padding-top: 30px; }
+
+.carouselExampleIndicators {
+  height: 30px; }
+
+h1 {
+  color: #ea580b; }
 
 /*# sourceMappingURL=ficha.css.map */

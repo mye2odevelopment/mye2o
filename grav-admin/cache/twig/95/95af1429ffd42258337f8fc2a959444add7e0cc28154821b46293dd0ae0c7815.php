@@ -37,6 +37,6 @@ class __TwigTemplate_da6e4fd14b5c237fcebdec5e4ceee562c0175d830fc8ec3e9cbf0bfb0af
 
     public function getSourceContext()
     {
-        return new Twig_Source("", "partials/home-skeleton.html.twig", "/home/factoria/carpetagit/mye2o/grav-admin/user/themes/mye2o-theme/templates/partials/home-skeleton.html.twig");
+        return new Twig_Source("", "partials/home-skeleton.html.twig", "/Applications/MAMP/htdocs/mye2o/grav-admin/user/themes/mye2o-theme/templates/partials/home-skeleton.html.twig");
     }
 }
