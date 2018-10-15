@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/factoria/carpetagit/mye2o/grav-admin/user/plugins/admin/languages/it.yaml',
-    'modified' => 1538999179,
+    'modified' => 1539095242,
     'data' => [
         'PLUGIN_ADMIN' => [
             'ADMIN_BETA_MSG' => 'Questa è una versione beta! Usare in produzione a proprio rischio e pericolo…',

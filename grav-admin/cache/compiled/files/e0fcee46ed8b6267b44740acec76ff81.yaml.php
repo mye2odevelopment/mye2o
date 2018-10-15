@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/factoria/carpetagit/mye2o/grav-admin/system/config/site.yaml',
-    'modified' => 1538999178,
+    'modified' => 1539095241,
     'data' => [
         'title' => 'Grav',
         'default_lang' => 'en',

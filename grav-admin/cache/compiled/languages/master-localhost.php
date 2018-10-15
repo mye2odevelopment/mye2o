@@ -1,331 +1,331 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledLanguages',
-    'timestamp' => 1539180446,
-    'checksum' => '0f4f45a25d3c8f8ade25b86f1aed0e3e',
+    'timestamp' => 1539616033,
+    'checksum' => '20b234db204b2db846f3ed1ef2e787c9',
     'files' => [
         'system/languages' => [
             'ar' => [
                 'file' => 'system/languages/ar.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095241
             ],
             'ca' => [
                 'file' => 'system/languages/ca.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095241
             ],
             'cs' => [
                 'file' => 'system/languages/cs.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095241
             ],
             'da' => [
                 'file' => 'system/languages/da.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095241
             ],
             'de' => [
                 'file' => 'system/languages/de.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095241
             ],
             'el' => [
                 'file' => 'system/languages/el.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095241
             ],
             'en' => [
                 'file' => 'system/languages/en.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095241
             ],
             'es' => [
                 'file' => 'system/languages/es.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095241
             ],
             'fi' => [
                 'file' => 'system/languages/fi.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095241
             ],
             'fr' => [
                 'file' => 'system/languages/fr.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095241
             ],
             'hr' => [
                 'file' => 'system/languages/hr.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095241
             ],
             'hu' => [
                 'file' => 'system/languages/hu.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095241
             ],
             'it' => [
                 'file' => 'system/languages/it.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095241
             ],
             'ja' => [
                 'file' => 'system/languages/ja.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095241
             ],
             'lt' => [
                 'file' => 'system/languages/lt.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095241
             ],
             'nb' => [
                 'file' => 'system/languages/nb.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095241
             ],
             'nl' => [
                 'file' => 'system/languages/nl.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095241
             ],
             'no' => [
                 'file' => 'system/languages/no.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095241
             ],
             'pl' => [
                 'file' => 'system/languages/pl.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095241
             ],
             'pt' => [
                 'file' => 'system/languages/pt.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095241
             ],
             'ro' => [
                 'file' => 'system/languages/ro.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095241
             ],
             'ru' => [
                 'file' => 'system/languages/ru.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095241
             ],
             'sk' => [
                 'file' => 'system/languages/sk.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095241
             ],
             'sv' => [
                 'file' => 'system/languages/sv.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095241
             ],
             'th' => [
                 'file' => 'system/languages/th.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095241
             ],
             'tr' => [
                 'file' => 'system/languages/tr.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095241
             ],
             'uk' => [
                 'file' => 'system/languages/uk.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095241
             ],
             'vi' => [
                 'file' => 'system/languages/vi.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095241
             ]
         ],
         'user/plugins' => [
-            'plugins/form' => [
-                'file' => 'user/plugins/form/languages.yaml',
-                'modified' => 1539000189
-            ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/languages.yaml',
-                'modified' => 1539000189
+                'modified' => 1539095242
+            ],
+            'plugins/form' => [
+                'file' => 'user/plugins/form/languages.yaml',
+                'modified' => 1539095242
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/languages.yaml',
-                'modified' => 1539000189
+                'modified' => 1539095242
             ]
         ],
         'user/plugins/admin/languages' => [
             'ar' => [
                 'file' => 'user/plugins/admin/languages/ar.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095242
             ],
             'bg' => [
                 'file' => 'user/plugins/admin/languages/bg.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095242
             ],
             'br' => [
                 'file' => 'user/plugins/admin/languages/br.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095242
             ],
             'ca' => [
                 'file' => 'user/plugins/admin/languages/ca.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095242
             ],
             'cs' => [
                 'file' => 'user/plugins/admin/languages/cs.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095242
             ],
             'cy' => [
                 'file' => 'user/plugins/admin/languages/cy.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095242
             ],
             'da' => [
                 'file' => 'user/plugins/admin/languages/da.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095242
             ],
             'de' => [
                 'file' => 'user/plugins/admin/languages/de.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095242
             ],
             'el' => [
                 'file' => 'user/plugins/admin/languages/el.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095242
             ],
             'en' => [
                 'file' => 'user/plugins/admin/languages/en.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095242
             ],
             'es' => [
                 'file' => 'user/plugins/admin/languages/es.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095242
             ],
             'et' => [
                 'file' => 'user/plugins/admin/languages/et.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095242
             ],
             'eu' => [
                 'file' => 'user/plugins/admin/languages/eu.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095242
             ],
             'fa' => [
                 'file' => 'user/plugins/admin/languages/fa.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095242
             ],
             'fi' => [
                 'file' => 'user/plugins/admin/languages/fi.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095242
             ],
             'fr' => [
                 'file' => 'user/plugins/admin/languages/fr.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095242
             ],
             'he' => [
                 'file' => 'user/plugins/admin/languages/he.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095242
             ],
             'hr' => [
                 'file' => 'user/plugins/admin/languages/hr.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095242
             ],
             'hu' => [
                 'file' => 'user/plugins/admin/languages/hu.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095242
             ],
             'id' => [
                 'file' => 'user/plugins/admin/languages/id.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095242
             ],
             'it' => [
                 'file' => 'user/plugins/admin/languages/it.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095242
             ],
             'ja' => [
                 'file' => 'user/plugins/admin/languages/ja.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095242
             ],
             'ko' => [
                 'file' => 'user/plugins/admin/languages/ko.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095242
             ],
             'lt' => [
                 'file' => 'user/plugins/admin/languages/lt.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095242
             ],
             'nl' => [
                 'file' => 'user/plugins/admin/languages/nl.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095242
             ],
             'no' => [
                 'file' => 'user/plugins/admin/languages/no.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095242
             ],
             'pl' => [
                 'file' => 'user/plugins/admin/languages/pl.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095242
             ],
             'pt' => [
                 'file' => 'user/plugins/admin/languages/pt.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095242
             ],
             'ro' => [
                 'file' => 'user/plugins/admin/languages/ro.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095242
             ],
             'ru' => [
                 'file' => 'user/plugins/admin/languages/ru.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095242
             ],
             'sk' => [
                 'file' => 'user/plugins/admin/languages/sk.yaml',
-                'modified' => 1539000189
+                'modified' => 1539095242
             ],
             'sl' => [
                 'file' => 'user/plugins/admin/languages/sl.yaml',
-                'modified' => 1539000189
+                'modified' => 1539095242
             ],
             'sv' => [
                 'file' => 'user/plugins/admin/languages/sv.yaml',
-                'modified' => 1539000189
+                'modified' => 1539095242
             ],
             'th' => [
                 'file' => 'user/plugins/admin/languages/th.yaml',
-                'modified' => 1539000189
+                'modified' => 1539095242
             ],
             'tlh' => [
                 'file' => 'user/plugins/admin/languages/tlh.yaml',
-                'modified' => 1539000189
+                'modified' => 1539095242
             ],
             'tr' => [
                 'file' => 'user/plugins/admin/languages/tr.yaml',
-                'modified' => 1539000189
+                'modified' => 1539095242
             ],
             'uk' => [
                 'file' => 'user/plugins/admin/languages/uk.yaml',
-                'modified' => 1539000189
+                'modified' => 1539095242
             ],
             'vi' => [
                 'file' => 'user/plugins/admin/languages/vi.yaml',
-                'modified' => 1539000189
+                'modified' => 1539095242
             ],
             'zh' => [
                 'file' => 'user/plugins/admin/languages/zh.yaml',
-                'modified' => 1539000189
+                'modified' => 1539095242
             ]
         ],
         'user/plugins/login/languages' => [
             'de' => [
                 'file' => 'user/plugins/login/languages/de.yaml',
-                'modified' => 1539000189
+                'modified' => 1539095242
             ],
             'en' => [
                 'file' => 'user/plugins/login/languages/en.yaml',
-                'modified' => 1539000189
+                'modified' => 1539095242
             ],
             'es' => [
                 'file' => 'user/plugins/login/languages/es.yaml',
-                'modified' => 1539000189
+                'modified' => 1539095242
             ],
             'fr' => [
                 'file' => 'user/plugins/login/languages/fr.yaml',
-                'modified' => 1539000189
+                'modified' => 1539095242
             ],
             'hr' => [
                 'file' => 'user/plugins/login/languages/hr.yaml',
-                'modified' => 1539000189
+                'modified' => 1539095242
             ],
             'hu' => [
                 'file' => 'user/plugins/login/languages/hu.yaml',
-                'modified' => 1539000189
+                'modified' => 1539095242
             ],
             'no' => [
                 'file' => 'user/plugins/login/languages/no.yaml',
-                'modified' => 1539000189
+                'modified' => 1539095242
             ],
             'ro' => [
                 'file' => 'user/plugins/login/languages/ro.yaml',
-                'modified' => 1539000189
+                'modified' => 1539095242
             ],
             'ru' => [
                 'file' => 'user/plugins/login/languages/ru.yaml',
-                'modified' => 1539000189
+                'modified' => 1539095242
             ]
         ]
     ],
@@ -1054,6 +1054,10 @@ return [
                 'CONTENT_PADDING' => 'Abstand um Inhalte',
                 'CONTENT_PADDING_HELP' => 'Abstand um Inhalte aktivieren/deaktivieren um mehr Platz anzubieten'
             ],
+            'PLUGIN_ERROR' => [
+                'ERROR' => 'Fehler',
+                'ERROR_MESSAGE' => 'Uuups. Sieht aus als ob diese Seite nicht existiert.'
+            ],
             'PLUGIN_FORM' => [
                 'NOT_VALIDATED' => 'Formularwerte nicht gültig. Für ein oder mehrere erforderliche Felder fehlen Werte.',
                 'NONCE_NOT_VALIDATED' => 'Ups, es gibt da ein Problem. Eingabewerte bitte noch mal prüfen und das Formular erneut absenden.',
@@ -1068,10 +1072,6 @@ return [
                 'DATA_SUMMARY' => 'Hier die Zusammenfassung von dem, was Sie geschrieben haben:',
                 'YES' => 'Ja',
                 'NO' => 'Nein'
-            ],
-            'PLUGIN_ERROR' => [
-                'ERROR' => 'Fehler',
-                'ERROR_MESSAGE' => 'Uuups. Sieht aus als ob diese Seite nicht existiert.'
             ],
             'PLUGIN_EMAIL' => [
                 'EMAIL_NOT_CONFIGURED' => 'E-Mail ist nicht konfiguriert',
@@ -2044,6 +2044,10 @@ You have **2FA** enabled on this account. Please use your **2FA** app to enter t
                 'XSS_ONSAVE_ISSUE' => 'Save failed: XSS issue detected...',
                 'XSS_ISSUE' => '<strong>NOTICE:</strong> Grav found potential XSS issues in <strong>%s</strong>'
             ],
+            'PLUGIN_ERROR' => [
+                'ERROR' => 'Error',
+                'ERROR_MESSAGE' => 'Woops. Looks like this page doesn\'t exist.'
+            ],
             'PLUGIN_FORM' => [
                 'NOT_VALIDATED' => 'Form not validated. One or more required fields are missing.',
                 'NONCE_NOT_VALIDATED' => 'Oops there was a problem, please check your input and submit the form again.',
@@ -2098,10 +2102,6 @@ You have **2FA** enabled on this account. Please use your **2FA** app to enter t
                 'INLINE_ERRORS_HELP' => 'Useful with \'client-side validation\' off, shows inline contextual form errors',
                 'RESOLUTION_MIN' => 'The {{attr}} was less than the minimum of {{min}}px <br />',
                 'RESOLUTION_MAX' => 'The {{attr}} was more than the maximum of {{max}}px <br />'
-            ],
-            'PLUGIN_ERROR' => [
-                'ERROR' => 'Error',
-                'ERROR_MESSAGE' => 'Woops. Looks like this page doesn\'t exist.'
             ],
             'PLUGIN_EMAIL' => [
                 'EMAIL_NOT_CONFIGURED' => 'Email not configured',
@@ -4010,6 +4010,10 @@ Ruta: `%2$s`
                 '2FA_SECRET_HELP' => 'Scannez ce code QR dans votre [app d\'authentification](https://learn.getgrav.org/admin-panel/2fa#apps). Il est également conseillé de sauvegarder le code secret dans un emplacement sûr, au cas où vous deviez réinstaller l\'app. Consultez les [aides Grav](https://learn.getgrav.org/admin-panel/2fa) pour plus d\'informations ',
                 '2FA_REGENERATE' => 'Régénérer'
             ],
+            'PLUGIN_ERROR' => [
+                'ERROR' => 'Erreur',
+                'ERROR_MESSAGE' => 'Oups. Il semble que cette page n’existe pas.'
+            ],
             'PLUGIN_FORM' => [
                 'NOT_VALIDATED' => 'Formulaire non validé. Un ou plusieurs champs obligatoires sont manquants.',
                 'NONCE_NOT_VALIDATED' => 'Oups, un problème est survenu. Veuillez vérifier votre saisie et soumettre à nouveau le formulaire.',
@@ -4044,10 +4048,6 @@ Ruta: `%2$s`
                 'DROPZONE_REMOVE_FILE' => 'Supprimer le fichier',
                 'DROPZONE_REMOVE_FILE_CONFIRMATION' => 'Êtes-vous sûr de vouloir supprimer ce fichier ?',
                 'DROPZONE_RESPONSE_ERROR' => 'Le serveur a répondu avec le code {{statusCode}}.'
-            ],
-            'PLUGIN_ERROR' => [
-                'ERROR' => 'Erreur',
-                'ERROR_MESSAGE' => 'Oups. Il semble que cette page n’existe pas.'
             ],
             'PLUGIN_EMAIL' => [
                 'EMAIL_NOT_CONFIGURED' => 'L’e-mail n’est pas configuré',
@@ -4815,6 +4815,10 @@ Path: `%2$s`
                 '2FA_CODE_INPUT' => '000000',
                 '2FA_REGENERATE' => 'Ponovno stvori'
             ],
+            'PLUGIN_ERROR' => [
+                'ERROR' => 'Greška',
+                'ERROR_MESSAGE' => 'Uups. Izgleda da ova stranica ne postoji.'
+            ],
             'PLUGIN_FORM' => [
                 'NOT_VALIDATED' => 'Formular nije validiran. Jedan ili više traženih polja nedostaju.',
                 'NONCE_NOT_VALIDATED' => 'Ups, došlo je do problema, molimo provjerite svoj unos i pokušajte opet.',
@@ -4825,10 +4829,6 @@ Path: `%2$s`
                 'ACCEPT' => 'Dopušteni MIME Tipovi',
                 'ACCEPT_HELP' => 'Lista dopuštenih MIME Tipova koji su dozvoljeni za upload',
                 'ERROR_VALIDATING_CAPTCHA' => 'Greška pri validiranju Captcha'
-            ],
-            'PLUGIN_ERROR' => [
-                'ERROR' => 'Greška',
-                'ERROR_MESSAGE' => 'Uups. Izgleda da ova stranica ne postoji.'
             ],
             'PLUGIN_EMAIL' => [
                 'EMAIL_NOT_CONFIGURED' => 'Email nije konfiguriran',
@@ -7429,6 +7429,10 @@ Aveți **2FA** activată pentru acest cont. Vă rugăm folosiți aplicația pent
                 '2FA_SECRET_HELP' => 'Scanați acest cod QR cu [aplicația de autentificare](https://learn.getgrav.org/admin-panel/2fa#apps). De asemenea este o idee bună să salvați secretul într-o locație sigură, în cazul in care aveți nevoie să reinstalați aplicația de autentificare. Verificați [documentația Grav](https://learn.getgrav.org/admin-panel/2fa) pentru mai multe informații ',
                 '2FA_REGENERATE' => 'Regenerează'
             ],
+            'PLUGIN_ERROR' => [
+                'ERROR' => 'Eroare',
+                'ERROR_MESSAGE' => 'Ooops. Se pare că pagina nu există.'
+            ],
             'PLUGIN_FORM' => [
                 'NOT_VALIDATED' => 'Formularul nu a fost validat. Unul sau mai multe câmpuri sunt goale.',
                 'NONCE_NOT_VALIDATED' => 'Oops a apărut o problemă, vă rugăm verificați datele introduse și trimiteți formularul din nou.',
@@ -7447,10 +7451,6 @@ Aveți **2FA** activată pentru acest cont. Vă rugăm folosiți aplicația pent
                 'RECAPTCHA_SITE_KEY_HELP' => 'Pentru mai multe detalii vă rugăm vizitați https://developers.google.com/recaptcha',
                 'RECAPTCHA_SECRET_KEY' => 'Cheia secretă pentru Site',
                 'RECAPTCHA_SECRET_KEY_HELP' => 'Pentru mai multe detalii vă rugăm vizitați  https://developers.google.com/recaptcha'
-            ],
-            'PLUGIN_ERROR' => [
-                'ERROR' => 'Eroare',
-                'ERROR_MESSAGE' => 'Ooops. Se pare că pagina nu există.'
             ],
             'PLUGIN_EMAIL' => [
                 'EMAIL_NOT_CONFIGURED' => 'Adresa de email nu este configurată',
@@ -8363,6 +8363,10 @@ Calea: `%2$s`
                 '2FA_ENABLED' => '2FA включен',
                 '2FA_SECRET_HELP' => 'Сканируйте этот QR-код в свое [приложение аутентификации] (https://learn.getgrav.org/admin-panel/2fa#apps). Также рекомендуется резервировать секрет в безопасном месте, если вам нужно переустановить приложение. Для получения дополнительной информации просмотрите документы [Grav docs] (https://learn.getgrav.org/admin-panel/2fa) '
             ],
+            'PLUGIN_ERROR' => [
+                'ERROR' => 'Ошибка',
+                'ERROR_MESSAGE' => 'Упс. Похоже, этой страницы не существует.'
+            ],
             'PLUGIN_FORM' => [
                 'NOT_VALIDATED' => 'Форма не подтверждена. Отсутствует одно или несколько обязательных полей.',
                 'NONCE_NOT_VALIDATED' => 'Упс, у вас возникла проблема, проверьте свои данные и отправьте форму еще раз.',
@@ -8410,10 +8414,6 @@ Calea: `%2$s`
                 'AVOID_OVERWRITING_HELP' => 'Не допускать перезаписи файлов с тем же именем. Будет добавлен префикс с датой',
                 'RANDOM_NAME' => 'Случайное имя',
                 'RANDOM_NAME_HELP' => 'Создавать случайное строковое имя из 15 символов для загруженных файлов'
-            ],
-            'PLUGIN_ERROR' => [
-                'ERROR' => 'Ошибка',
-                'ERROR_MESSAGE' => 'Упс. Похоже, этой страницы не существует.'
             ],
             'PLUGIN_EMAIL' => [
                 'EMAIL_NOT_CONFIGURED' => 'Электронная почта не настроена',
@@ -10935,6 +10935,10 @@ Máte na svém účtu aktivováno **dvoufaktorové ověřování**. Pro dokonče
                 '2FA_SECRET_HELP' => 'Naskenujte tento QR kód do vaší [Ověřovací aplikace](https://learn.getgrav.org/admin-panel/2fa#apps). Dobrý nápad je také zazálohovat tajný kód na bezpečné místo, pokud bude zapotřebí aplikaci přeinstalovat.  Pro více informací se podívejte do [Grav dokumentace](https://learn.getgrav.org/admin-panel/2fa) ',
                 '2FA_REGENERATE' => 'Přegenerovat'
             ],
+            'PLUGIN_ERROR' => [
+                'ERROR' => 'Chyba',
+                'ERROR_MESSAGE' => 'A jéje. Vypadá to, že hledaná stránka tu není.'
+            ],
             'PLUGIN_FORM' => [
                 'NOT_VALIDATED' => 'Formulář nebyl ověřen. Chybí jedno nebo více povinných polí.',
                 'NONCE_NOT_VALIDATED' => 'Jejda, došlo k problému, zkontrolujte vstupní stránku a znovu odešlete formulář.',
@@ -10971,10 +10975,6 @@ Máte na svém účtu aktivováno **dvoufaktorové ověřování**. Pro dokonče
                 'DROPZONE_RESPONSE_ERROR' => 'Server vrátil chybový kód: {{statusCode}}.',
                 'YES' => 'Ano',
                 'NO' => 'Ne'
-            ],
-            'PLUGIN_ERROR' => [
-                'ERROR' => 'Chyba',
-                'ERROR_MESSAGE' => 'A jéje. Vypadá to, že hledaná stránka tu není.'
             ],
             'INFLECTOR_UNCOUNTABLE' => [
                 0 => 'vybavení',
@@ -15508,6 +15508,10 @@ La **2FA** è abilitata per questo account. Si prega di utilizzare la vostra app
                 '2FA_SECRET_HELP' => 'Scandisci questo codice QR nella tua [Authenticator App](https://learn.getgrav.org/admin-panel/2fa#apps). È inoltre cosa buona fare il backup del Segreto in un luogo sicuro, nel caso in cui fosse necessario reinstallare la vostra app.  Controllare i [Grav docs] (https://learn.getgrav.org/admin-panel/2fa) per ulteriori informazioni ',
                 '2FA_REGENERATE' => 'Rigenera'
             ],
+            'PLUGIN_ERROR' => [
+                'ERROR' => 'Errore',
+                'ERROR_MESSAGE' => 'Ooops. A quanto pare, questa pagina non esiste.'
+            ],
             'PLUGIN_FORM' => [
                 'NOT_VALIDATED' => 'Il Form risulta invalido. Uno o più campi risultano omessi.',
                 'NONCE_NOT_VALIDATED' => 'Oops è stato riscontrato un errore, si prega di ricontrollare i dati inseriti e provare di nuovo.',
@@ -15544,10 +15548,6 @@ La **2FA** è abilitata per questo account. Si prega di utilizzare la vostra app
                 'DROPZONE_RESPONSE_ERROR' => 'Il Server ha risposto con il codice {{statusCode}}.',
                 'YES' => 'Si',
                 'NO' => 'No'
-            ],
-            'PLUGIN_ERROR' => [
-                'ERROR' => 'Errore',
-                'ERROR_MESSAGE' => 'Ooops. A quanto pare, questa pagina non esiste.'
             ],
             'PLUGIN_EMAIL' => [
                 'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Per favore, configura l\'indirizzo di destinazione (\'to\') nella configurazione del Plugin Email, oppure direttamente nella form.',
@@ -18369,6 +18369,10 @@ Masz na tym koncie włączone **2FA**. Użyj aplikacji od **2FA** i wprowadź ak
                 '2FA_SECRET_HELP' => 'Zeskanuj ten kod QR do swojej [aplikacji uwierzytelniającej](https://learn.getgrav.org/admin-panel/2fa#apps). Zrobienie kopii zapasowej sekretu w bezpiecznym miejscu jest także dobrym pomysłem, w przypadku konieczności reinstalacji aplikacji. Przeczytaj [dokumentację Grav](https://learn.getgrav.org/admin-panel/2fa), aby dowiedzieć się więcej.',
                 '2FA_REGENERATE' => 'Zregeneruj'
             ],
+            'PLUGIN_ERROR' => [
+                'ERROR' => 'Błąd',
+                'ERROR_MESSAGE' => 'Ups. Wygląda na to, że ta strona nie istnieje.'
+            ],
             'PLUGIN_FORM' => [
                 'NOT_VALIDATED' => 'Formularz został odrzucony. Jedno lub więcej pól wymaga wypełnienia.',
                 'NONCE_NOT_VALIDATED' => 'Ups, pojawił się problem. Proszę sprawdź czy wszystkie pola zostały wypełnione i wyślij formularz ponownie.',
@@ -18408,10 +18412,6 @@ Masz na tym koncie włączone **2FA**. Użyj aplikacji od **2FA** i wprowadź ak
                 'NO' => 'Nie',
                 'REFRESH_PREVENTION' => 'Zapobiegaj odświeżaniu',
                 'REFRESH_PREVENTION_HELP' => 'Użyj unikatowego identyfikatora ID , aby upewnić się, że przeglądarka nie przetworzy formularza ponownie.'
-            ],
-            'PLUGIN_ERROR' => [
-                'ERROR' => 'Błąd',
-                'ERROR_MESSAGE' => 'Ups. Wygląda na to, że ta strona nie istnieje.'
             ],
             'FRONTMATTER_ERROR_PAGE' => '---
 title: %1$s
@@ -22890,7 +22890,7 @@ Path: `%2$s`
                 6 => 'søndag'
             ]
         ],
-        'checksum' => '0f4f45a25d3c8f8ade25b86f1aed0e3e',
-        'timestamp' => 1539180446
+        'checksum' => '20b234db204b2db846f3ed1ef2e787c9',
+        'timestamp' => 1539616033
     ]
 ];

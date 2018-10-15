@@ -1,21 +1,24 @@
 <nav aria-colspan="breadcrumb"></nav>
+{% for item in page.taxonomy.category %}
 <ol class="breadcrumb bg-white">
     <li class="breadcrumb-item"><a class="categoriaBread" href="#">CATEGORIAS</a></li>
-    <li class="breadcrumb-item currentCategoria" aria-current="page">PROFESIONALES</li>
+    <li class="breadcrumb-item currentCategoria" aria-current="page">{{item}}</li>
 </ol>
+{% endfor %}
 </nav>
 <div class="container">
     <div class="row">
+    
         <div class="col-ls">
 
             <img src="{{ url('theme://images/logoTomillo.svg') }}" alt="" height="80">
         </div>
         <div class="col-md">
-            <h1 class="text-right">Formación Especializada compartida con la Empresa</h1>
+            <h1 class="text-right">{{page.title}}</h1>
         </div>
     </div>
 </div>
-<h3 class="text-right font-italic author">Equipo de Formación para el Empleo<a href="">
+<h3 class="text-right font-italic author">{{page.header.autor}}<a href="">
 
         <img src="{{ url('theme://images/contactAuthor.png') }}" alt="" height="80">
     </a></h3>
@@ -125,10 +128,14 @@
 
 <!-- tags importants ONE start-->
 <div class="tagGroupOne">
-    <a class="btn btn rounded-0 border tagsOne" href="#" role="button">Competencias técnico-profesionales</a>
-    <a class="btn btn rounded-0 border tagsOne" href="#" role="button">Formación dual -Formación en Alternancia</a>
+    {% for tag in page.taxonomy.tag %}
+    <ul>
+    <li><a class="btn btn rounded-0 border tagsOne" href="#" role="button">{{ tag }}</a></li>
+    {# <a class="btn btn rounded-0 border tagsOne" href="#" role="button">Formación dual -Formación en Alternancia</a>
     <a class="btn btn rounded-0 border tagsOne" href="#" role="button">Formación práctica
-    </a>
+    </a> #}
+    </ul>
+    {% endfor %}
     <!-- tags importants end-->
 
 
@@ -147,11 +154,13 @@
         </p>
     </div>
     <!-- tags importants TWO start-->
+    {% for tag in page.taxonomy.tag %}
     <div class="tagGroupDos">
-        <a class="btn btn rounded-0 border-0 tagsTwo" href="#" role="button">Standard</a>
-        <a class="btn btn rounded-0 border-0 tagsTwo" href="#" role="button">Standard</a>
-        <a class="btn btn rounded-0 border-0 tagsTwo" href="#" role="button">Standard</a>
+        <a class="btn btn rounded-0 border-0 tagsTwo" href="#" role="button">{{ tag }}</a>
+        {# <a class="btn btn rounded-0 border-0 tagsTwo" href="#" role="button">Standard</a>
+        <a class="btn btn rounded-0 border-0 tagsTwo" href="#" role="button">Standard</a> #}
     </div>
+    {% endfor %}
     <!-- tags importants End-->
 
 

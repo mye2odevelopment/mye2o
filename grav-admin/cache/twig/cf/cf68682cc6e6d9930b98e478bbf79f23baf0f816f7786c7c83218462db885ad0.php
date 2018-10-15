@@ -121,9 +121,9 @@ class __TwigTemplate_7ad7daa9a8a1f1c3446899bbc057bb7d8d3c1fc89c2dacfa8edaa63542e
     public function block_stylesheets($context, array $blocks = array())
     {
         echo "     
-    ";
+        ";
         // line 17
-        $this->getAttribute(($context["assets"] ?? null), "addCss", array(0 => "theme://css/reset.css", 1 => 99), "method");
+        $this->getAttribute(($context["assets"] ?? null), "addCss", array(0 => "theme://css/reset.css", 1 => 98), "method");
         // line 18
         echo "        ";
         $this->getAttribute(($context["assets"] ?? null), "addCss", array(0 => "https://unpkg.com/purecss@1.0.0/build/pure-min.css", 1 => 100), "method");
@@ -132,10 +132,10 @@ class __TwigTemplate_7ad7daa9a8a1f1c3446899bbc057bb7d8d3c1fc89c2dacfa8edaa63542e
         $this->getAttribute(($context["assets"] ?? null), "addCss", array(0 => "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css", 1 => 99), "method");
         // line 20
         echo "        ";
-        $this->getAttribute(($context["assets"] ?? null), "addCss", array(0 => "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css", 1 => 99), "method");
+        $this->getAttribute(($context["assets"] ?? null), "addCss", array(0 => "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css", 1 => 96), "method");
         // line 21
         echo "        ";
-        $this->getAttribute(($context["assets"] ?? null), "addCss", array(0 => "theme://css-compiled/ficha.css", 1 => 98), "method");
+        $this->getAttribute(($context["assets"] ?? null), "addCss", array(0 => "theme://css-compiled/ficha.css", 1 => 95), "method");
         // line 22
         echo "
 
@@ -280,11 +280,11 @@ class __TwigTemplate_7ad7daa9a8a1f1c3446899bbc057bb7d8d3c1fc89c2dacfa8edaa63542e
     <link rel=\"canonical\" href=\"{{ page.url(true, true) }}\" />
 
     {% block stylesheets %}     
-    {% do assets.addCss('theme://css/reset.css', 99) %}
+        {% do assets.addCss('theme://css/reset.css', 98) %}
         {% do assets.addCss('https://unpkg.com/purecss@1.0.0/build/pure-min.css', 100) %}
         {% do assets.addCss('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', 99) %}
-        {% do assets.addCss('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css', 99)  %}
-        {% do assets.addCss('theme://css-compiled/ficha.css', 98) %}
+        {% do assets.addCss('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css', 96)  %}
+        {% do assets.addCss('theme://css-compiled/ficha.css', 95) %}
 
 
     {% endblock %}
@@ -340,6 +340,6 @@ class __TwigTemplate_7ad7daa9a8a1f1c3446899bbc057bb7d8d3c1fc89c2dacfa8edaa63542e
 
 </body>
 </html>
-", "partials/base.html.twig", "/Applications/MAMP/htdocs/mye2o/grav-admin/user/themes/mye2o-theme/templates/partials/base.html.twig");
+", "partials/base.html.twig", "/home/factoria/carpetagit/mye2o/grav-admin/user/themes/mye2o-theme/templates/partials/base.html.twig");
     }
 }
