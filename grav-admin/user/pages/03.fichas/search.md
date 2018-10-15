@@ -1,0 +1,6 @@
+---
+title: prueba
+
+---
+
+# Buscador

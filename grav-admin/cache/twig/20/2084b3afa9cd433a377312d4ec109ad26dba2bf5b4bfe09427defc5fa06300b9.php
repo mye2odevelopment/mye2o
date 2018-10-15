@@ -96,6 +96,6 @@ class __TwigTemplate_643e6cc608f553a0b6a1f91f292c4de3eae86c47bd9f511472b2701a13e
     </select>
     <div class=\"sort-icon\"><i class=\"fa fa-fw fa-sort-amount-asc\"></i></div>
 </div>
-", "partials/list-sort.html.twig", "/Applications/MAMP/htdocs/mye2o/grav-admin/user/plugins/admin/themes/grav/templates/partials/list-sort.html.twig");
+", "partials/list-sort.html.twig", "/home/factoria/carpetagit/mye2o/grav-admin/user/plugins/admin/themes/grav/templates/partials/list-sort.html.twig");
     }
 }

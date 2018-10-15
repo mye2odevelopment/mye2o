@@ -361,6 +361,6 @@ class __TwigTemplate_00a3fd8c3c0a589be48f3f22e95bb2b4d18bf14935e0830c132222686a7
         {%- endif -%}
     </div>
 {% endblock %}
-", "dashboard.html.twig", "/Applications/MAMP/htdocs/mye2o/grav-admin/user/plugins/admin/themes/grav/templates/dashboard.html.twig");
+", "dashboard.html.twig", "/home/factoria/carpetagit/mye2o/grav-admin/user/plugins/admin/themes/grav/templates/dashboard.html.twig");
     }
 }

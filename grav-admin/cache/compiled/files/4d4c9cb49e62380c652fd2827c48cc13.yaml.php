@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/factoria/carpetagit/mye2o/grav-admin/user/plugins/login/blueprints.yaml',
-    'modified' => 1538999180,
+    'modified' => 1539095242,
     'data' => [
         'name' => 'Login',
         'version' => '2.7.3',

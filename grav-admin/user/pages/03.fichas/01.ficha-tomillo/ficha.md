@@ -1,4 +1,20 @@
 ---
-title: buenas practicas tomillo
+title: 'buenas practicas tomillo'
+autor: 'nuria algo algo'
+taxonomy:
+    category:
+        - categoria1
+        - zcfasdbn
+    tag:
+        - tag1
+        - tag2
+        - tag3
 slug: tomillo
+sumary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet eros non erat iaculis ultrices. Aliquam eros risus, pretium vel lectus non, sodales tincidunt dolor. Quisque quis felis ac justo rutrum aliquam non vitae mi'
 ---
+
+  Suspendisse dapibus tortor arcu, id luctus lectus consectetur sed. Sed aliquam urna in nibh elementum, a viverra sem auctor. Phasellus at pulvinar felis, sed placerat libero. Nullam eleifend posuere efficitur. Sed eleifend et tellus eu vestibulum. Nullam augue lorem, aliquet sollicitudin interdum et, convallis vitae odio. Donec consequat aliquam semper. Donec lorem lorem, suscipit quis leo at, suscipit facilisis arcu.
+
+Phasellus convallis placerat erat, ac semper erat maximus quis. Donec non pharetra ligula. Sed eu turpis odio. Praesent neque velit, molestie a nisi et, semper faucibus urna. Cras a mi mauris. Suspendisse vitae condimentum turpis. Ut elementum lorem nisi, eget condimentum tellus iaculis id. Mauris tincidunt vitae nulla a pretium. Curabitur sollicitudin metus at finibus blandit. Mauris libero lectus, cursus quis purus sodales, imperdiet convallis tellus. Aliquam ultricies ligula non magna scelerisque, ut scelerisque ante gravida. Vestibulum nulla risus, finibus eget eros eu, porttitor fermentum justo.
+
+Sed efficitur facilisis mattis. Quisque eu accumsan elit. Etiam ultrices enim ut blandit mollis. Aliquam neque felis, interdum vel suscipit quis, malesuada non ex. Donec tincidunt tellus rhoncus mattis luctus. Ut mattis mollis libero, in finibus nunc euismod at. Vivamus pretium augue eu metus tristique auctor. Etiam iaculis lorem sapien, in consequat enim mollis in. Duis eget massa at dui gravida dictum. Duis pellentesque nisl ante, ac vehicula justo faucibus et. Mauris faucibus, felis vel euismod congue, nunc leo blandit velit, in pulvinar libero nunc vitae ipsum. Proin ut vulputate lectus. Phasellus posuere neque id scelerisque porttitor. 

@@ -24,16 +24,16 @@ class __TwigTemplate_c2e8ebb18f42405499c02f810dc99bf183be00ee74e10854f9268405688
         $this->parent->display($context, array_merge($this->blocks, $blocks));
     }
 
-    // line 3
+    // line 9
     public function block_content($context, array $blocks = array())
     {
-        // line 4
+        // line 10
         echo "    ";
         echo $this->getAttribute(($context["page"] ?? null), "content", array());
         echo "
     ";
-        // line 5
-        $this->loadTemplate("partials/home-skeleton.html.twig", "home.html.twig", 5)->display($context);
+        // line 11
+        $this->loadTemplate("partials/home-skeleton.html.twig", "home.html.twig", 11)->display($context);
     }
 
     public function getTemplateName()
@@ -48,7 +48,7 @@ class __TwigTemplate_c2e8ebb18f42405499c02f810dc99bf183be00ee74e10854f9268405688
 
     public function getDebugInfo()
     {
-        return array (  36 => 5,  31 => 4,  28 => 3,  11 => 1,);
+        return array (  36 => 11,  31 => 10,  28 => 9,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -63,9 +63,20 @@ class __TwigTemplate_c2e8ebb18f42405499c02f810dc99bf183be00ee74e10854f9268405688
     {
         return new Twig_Source("{% extends 'partials/base.html.twig' %}
 
+{# {% block stylesheets %}
+    {% do assets.addCss('theme://css/various.css') %}
+    {% do assets.addCss('theme://css/realhome.css') %}
+    {{ parent() }}
+{% endblock %} #}
+
 {% block content %}
     {{ page.content }}
     {% include 'partials/home-skeleton.html.twig' %}
-{% endblock %}", "home.html.twig", "/home/factoria/carpetagit/mye2o/grav-admin/user/themes/mye2o-theme/templates/home.html.twig");
+{% endblock %}
+
+{# {% block javascript %}
+    {% do assets.addJs('theme://js/common_scripts.js') %}
+    {% do assets.addJs('theme://js/main.js') %}
+{% endblock %} #}", "home.html.twig", "/home/factoria/carpetagit/mye2o/grav-admin/user/themes/mye2o-theme/templates/home.html.twig");
     }
 }

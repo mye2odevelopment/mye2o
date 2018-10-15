@@ -80,6 +80,6 @@ class __TwigTemplate_bb91bb0fc11497cf4ad29e66b7395825192455492cad90db1b789b3352f
             <a class=\"button\" data-leave-action=\"continue\" href=\"#\"><i class=\"fa fa-fw fa-check\"></i> {{ \"PLUGIN_ADMIN.CONTINUE\"|tu }}</a>
         </div>
     </form>
-</div>", "partials/modal-changes-detected.html.twig", "/Applications/MAMP/htdocs/mye2o/grav-admin/user/plugins/admin/themes/grav/templates/partials/modal-changes-detected.html.twig");
+</div>", "partials/modal-changes-detected.html.twig", "/home/factoria/carpetagit/mye2o/grav-admin/user/plugins/admin/themes/grav/templates/partials/modal-changes-detected.html.twig");
     }
 }

@@ -272,6 +272,6 @@ class __TwigTemplate_e2b801c5927444e5ff257a3325b732c018acf865adee8b1a3ba3bbe1e03
         </div>
 
     </form>
-</div>", "partials/modal-update-packages.html.twig", "/Applications/MAMP/htdocs/mye2o/grav-admin/user/plugins/admin/themes/grav/templates/partials/modal-update-packages.html.twig");
+</div>", "partials/modal-update-packages.html.twig", "/home/factoria/carpetagit/mye2o/grav-admin/user/plugins/admin/themes/grav/templates/partials/modal-update-packages.html.twig");
     }
 }

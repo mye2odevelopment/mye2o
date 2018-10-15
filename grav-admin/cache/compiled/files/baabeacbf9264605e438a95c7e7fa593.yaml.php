@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/factoria/carpetagit/mye2o/grav-admin/system/blueprints/config/security.yaml',
-    'modified' => 1538999178,
+    'modified' => 1539095241,
     'data' => [
         'title' => 'PLUGIN_ADMIN.SECURITY',
         'form' => [

@@ -1,331 +1,335 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledLanguages',
-    'timestamp' => 1539086437,
-    'checksum' => '9875d9b8f4ea4a2091e211318f21f0a8',
+    'timestamp' => 1539600853,
+    'checksum' => 'ffdfe8cd0e6581f664b7574078726d0a',
     'files' => [
         'system/languages' => [
             'ar' => [
                 'file' => 'system/languages/ar.yaml',
-                'modified' => 1538999178
+                'modified' => 1539095241
             ],
             'ca' => [
                 'file' => 'system/languages/ca.yaml',
-                'modified' => 1538999178
+                'modified' => 1539095241
             ],
             'cs' => [
                 'file' => 'system/languages/cs.yaml',
-                'modified' => 1538999178
+                'modified' => 1539095241
             ],
             'da' => [
                 'file' => 'system/languages/da.yaml',
-                'modified' => 1538999178
+                'modified' => 1539095241
             ],
             'de' => [
                 'file' => 'system/languages/de.yaml',
-                'modified' => 1538999178
+                'modified' => 1539095241
             ],
             'el' => [
                 'file' => 'system/languages/el.yaml',
-                'modified' => 1538999178
+                'modified' => 1539095241
             ],
             'en' => [
                 'file' => 'system/languages/en.yaml',
-                'modified' => 1538999178
+                'modified' => 1539095241
             ],
             'es' => [
                 'file' => 'system/languages/es.yaml',
-                'modified' => 1538999178
+                'modified' => 1539095241
             ],
             'fi' => [
                 'file' => 'system/languages/fi.yaml',
-                'modified' => 1538999178
+                'modified' => 1539095241
             ],
             'fr' => [
                 'file' => 'system/languages/fr.yaml',
-                'modified' => 1538999178
+                'modified' => 1539095241
             ],
             'hr' => [
                 'file' => 'system/languages/hr.yaml',
-                'modified' => 1538999178
+                'modified' => 1539095241
             ],
             'hu' => [
                 'file' => 'system/languages/hu.yaml',
-                'modified' => 1538999178
+                'modified' => 1539095241
             ],
             'it' => [
                 'file' => 'system/languages/it.yaml',
-                'modified' => 1538999178
+                'modified' => 1539095241
             ],
             'ja' => [
                 'file' => 'system/languages/ja.yaml',
-                'modified' => 1538999178
+                'modified' => 1539095241
             ],
             'lt' => [
                 'file' => 'system/languages/lt.yaml',
-                'modified' => 1538999178
+                'modified' => 1539095241
             ],
             'nb' => [
                 'file' => 'system/languages/nb.yaml',
-                'modified' => 1538999178
+                'modified' => 1539095241
             ],
             'nl' => [
                 'file' => 'system/languages/nl.yaml',
-                'modified' => 1538999178
+                'modified' => 1539095241
             ],
             'no' => [
                 'file' => 'system/languages/no.yaml',
-                'modified' => 1538999178
+                'modified' => 1539095241
             ],
             'pl' => [
                 'file' => 'system/languages/pl.yaml',
-                'modified' => 1538999178
+                'modified' => 1539095241
             ],
             'pt' => [
                 'file' => 'system/languages/pt.yaml',
-                'modified' => 1538999178
+                'modified' => 1539095241
             ],
             'ro' => [
                 'file' => 'system/languages/ro.yaml',
-                'modified' => 1538999178
+                'modified' => 1539095241
             ],
             'ru' => [
                 'file' => 'system/languages/ru.yaml',
-                'modified' => 1538999178
+                'modified' => 1539095241
             ],
             'sk' => [
                 'file' => 'system/languages/sk.yaml',
-                'modified' => 1538999178
+                'modified' => 1539095241
             ],
             'sv' => [
                 'file' => 'system/languages/sv.yaml',
-                'modified' => 1538999178
+                'modified' => 1539095241
             ],
             'th' => [
                 'file' => 'system/languages/th.yaml',
-                'modified' => 1538999178
+                'modified' => 1539095241
             ],
             'tr' => [
                 'file' => 'system/languages/tr.yaml',
-                'modified' => 1538999178
+                'modified' => 1539095241
             ],
             'uk' => [
                 'file' => 'system/languages/uk.yaml',
-                'modified' => 1538999178
+                'modified' => 1539095241
             ],
             'vi' => [
                 'file' => 'system/languages/vi.yaml',
-                'modified' => 1538999178
+                'modified' => 1539095241
             ]
         ],
         'user/plugins' => [
             'plugins/error' => [
                 'file' => 'user/plugins/error/languages.yaml',
-                'modified' => 1538999180
+                'modified' => 1539095242
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/languages.yaml',
-                'modified' => 1538999180
+                'modified' => 1539095242
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/languages.yaml',
-                'modified' => 1538999179
+                'modified' => 1539095242
+            ],
+            'plugins/simplesearch' => [
+                'file' => 'user/plugins/simplesearch/languages.yaml',
+                'modified' => 1539600853
             ]
         ],
         'user/plugins/admin/languages' => [
             'ar' => [
                 'file' => 'user/plugins/admin/languages/ar.yaml',
-                'modified' => 1538999179
+                'modified' => 1539095242
             ],
             'bg' => [
                 'file' => 'user/plugins/admin/languages/bg.yaml',
-                'modified' => 1538999179
+                'modified' => 1539095242
             ],
             'br' => [
                 'file' => 'user/plugins/admin/languages/br.yaml',
-                'modified' => 1538999179
+                'modified' => 1539095242
             ],
             'ca' => [
                 'file' => 'user/plugins/admin/languages/ca.yaml',
-                'modified' => 1538999179
+                'modified' => 1539095242
             ],
             'cs' => [
                 'file' => 'user/plugins/admin/languages/cs.yaml',
-                'modified' => 1538999179
+                'modified' => 1539095242
             ],
             'cy' => [
                 'file' => 'user/plugins/admin/languages/cy.yaml',
-                'modified' => 1538999179
+                'modified' => 1539095242
             ],
             'da' => [
                 'file' => 'user/plugins/admin/languages/da.yaml',
-                'modified' => 1538999179
+                'modified' => 1539095242
             ],
             'de' => [
                 'file' => 'user/plugins/admin/languages/de.yaml',
-                'modified' => 1538999179
+                'modified' => 1539095242
             ],
             'el' => [
                 'file' => 'user/plugins/admin/languages/el.yaml',
-                'modified' => 1538999179
+                'modified' => 1539095242
             ],
             'en' => [
                 'file' => 'user/plugins/admin/languages/en.yaml',
-                'modified' => 1538999179
+                'modified' => 1539095242
             ],
             'es' => [
                 'file' => 'user/plugins/admin/languages/es.yaml',
-                'modified' => 1538999179
+                'modified' => 1539095242
             ],
             'et' => [
                 'file' => 'user/plugins/admin/languages/et.yaml',
-                'modified' => 1538999179
+                'modified' => 1539095242
             ],
             'eu' => [
                 'file' => 'user/plugins/admin/languages/eu.yaml',
-                'modified' => 1538999179
+                'modified' => 1539095242
             ],
             'fa' => [
                 'file' => 'user/plugins/admin/languages/fa.yaml',
-                'modified' => 1538999179
+                'modified' => 1539095242
             ],
             'fi' => [
                 'file' => 'user/plugins/admin/languages/fi.yaml',
-                'modified' => 1538999179
+                'modified' => 1539095242
             ],
             'fr' => [
                 'file' => 'user/plugins/admin/languages/fr.yaml',
-                'modified' => 1538999179
+                'modified' => 1539095242
             ],
             'he' => [
                 'file' => 'user/plugins/admin/languages/he.yaml',
-                'modified' => 1538999179
+                'modified' => 1539095242
             ],
             'hr' => [
                 'file' => 'user/plugins/admin/languages/hr.yaml',
-                'modified' => 1538999179
+                'modified' => 1539095242
             ],
             'hu' => [
                 'file' => 'user/plugins/admin/languages/hu.yaml',
-                'modified' => 1538999179
+                'modified' => 1539095242
             ],
             'id' => [
                 'file' => 'user/plugins/admin/languages/id.yaml',
-                'modified' => 1538999179
+                'modified' => 1539095242
             ],
             'it' => [
                 'file' => 'user/plugins/admin/languages/it.yaml',
-                'modified' => 1538999179
+                'modified' => 1539095242
             ],
             'ja' => [
                 'file' => 'user/plugins/admin/languages/ja.yaml',
-                'modified' => 1538999179
+                'modified' => 1539095242
             ],
             'ko' => [
                 'file' => 'user/plugins/admin/languages/ko.yaml',
-                'modified' => 1538999179
+                'modified' => 1539095242
             ],
             'lt' => [
                 'file' => 'user/plugins/admin/languages/lt.yaml',
-                'modified' => 1538999179
+                'modified' => 1539095242
             ],
             'nl' => [
                 'file' => 'user/plugins/admin/languages/nl.yaml',
-                'modified' => 1538999179
+                'modified' => 1539095242
             ],
             'no' => [
                 'file' => 'user/plugins/admin/languages/no.yaml',
-                'modified' => 1538999179
+                'modified' => 1539095242
             ],
             'pl' => [
                 'file' => 'user/plugins/admin/languages/pl.yaml',
-                'modified' => 1538999179
+                'modified' => 1539095242
             ],
             'pt' => [
                 'file' => 'user/plugins/admin/languages/pt.yaml',
-                'modified' => 1538999179
+                'modified' => 1539095242
             ],
             'ro' => [
                 'file' => 'user/plugins/admin/languages/ro.yaml',
-                'modified' => 1538999179
+                'modified' => 1539095242
             ],
             'ru' => [
                 'file' => 'user/plugins/admin/languages/ru.yaml',
-                'modified' => 1538999179
+                'modified' => 1539095242
             ],
             'sk' => [
                 'file' => 'user/plugins/admin/languages/sk.yaml',
-                'modified' => 1538999179
+                'modified' => 1539095242
             ],
             'sl' => [
                 'file' => 'user/plugins/admin/languages/sl.yaml',
-                'modified' => 1538999179
+                'modified' => 1539095242
             ],
             'sv' => [
                 'file' => 'user/plugins/admin/languages/sv.yaml',
-                'modified' => 1538999179
+                'modified' => 1539095242
             ],
             'th' => [
                 'file' => 'user/plugins/admin/languages/th.yaml',
-                'modified' => 1538999179
+                'modified' => 1539095242
             ],
             'tlh' => [
                 'file' => 'user/plugins/admin/languages/tlh.yaml',
-                'modified' => 1538999179
+                'modified' => 1539095242
             ],
             'tr' => [
                 'file' => 'user/plugins/admin/languages/tr.yaml',
-                'modified' => 1538999179
+                'modified' => 1539095242
             ],
             'uk' => [
                 'file' => 'user/plugins/admin/languages/uk.yaml',
-                'modified' => 1538999179
+                'modified' => 1539095242
             ],
             'vi' => [
                 'file' => 'user/plugins/admin/languages/vi.yaml',
-                'modified' => 1538999179
+                'modified' => 1539095242
             ],
             'zh' => [
                 'file' => 'user/plugins/admin/languages/zh.yaml',
-                'modified' => 1538999179
+                'modified' => 1539095242
             ]
         ],
         'user/plugins/login/languages' => [
             'de' => [
                 'file' => 'user/plugins/login/languages/de.yaml',
-                'modified' => 1538999180
+                'modified' => 1539095242
             ],
             'en' => [
                 'file' => 'user/plugins/login/languages/en.yaml',
-                'modified' => 1538999180
+                'modified' => 1539095242
             ],
             'es' => [
                 'file' => 'user/plugins/login/languages/es.yaml',
-                'modified' => 1538999180
+                'modified' => 1539095242
             ],
             'fr' => [
                 'file' => 'user/plugins/login/languages/fr.yaml',
-                'modified' => 1538999180
+                'modified' => 1539095242
             ],
             'hr' => [
                 'file' => 'user/plugins/login/languages/hr.yaml',
-                'modified' => 1538999180
+                'modified' => 1539095242
             ],
             'hu' => [
                 'file' => 'user/plugins/login/languages/hu.yaml',
-                'modified' => 1538999180
+                'modified' => 1539095242
             ],
             'no' => [
                 'file' => 'user/plugins/login/languages/no.yaml',
-                'modified' => 1538999180
+                'modified' => 1539095242
             ],
             'ro' => [
                 'file' => 'user/plugins/login/languages/ro.yaml',
-                'modified' => 1538999180
+                'modified' => 1539095242
             ],
             'ru' => [
                 'file' => 'user/plugins/login/languages/ru.yaml',
-                'modified' => 1538999180
+                'modified' => 1539095242
             ]
         ]
     ],
@@ -1077,6 +1081,14 @@ return [
                 'EMAIL_NOT_CONFIGURED' => 'E-Mail ist nicht konfiguriert',
                 'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Bitte konfigurieren sie eine \'An\' (\'to\') Adresse in den Email-Plugin-Einstellungen oder im Formular.',
                 'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Bitte konfigurieren sie eine \'Von\' (\'from\') Adresse in den Email-Plugin-Einstellungen oder im Formular.'
+            ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'Suche …',
+                'SEARCH_RESULTS' => 'Suchergebnisse',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Suche: <strong>%s</strong> fand ein Ergebnis',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Suche: <strong>%s</strong> fand %s Ergebnisse',
+                'SEARCH_FIELD_MINIMUM_CHARACTERS' => 'Bitte geben Sie mindestens %s Zeichen ein',
+                'SEARCH_VALUE' => 'Suchen'
             ],
             'FRONTMATTER_ERROR_PAGE' => '---
 title: %1$s
@@ -2110,6 +2122,13 @@ You have **2FA** enabled on this account. Please use your **2FA** app to enter t
                 'TEST_EMAIL_BODY' => '<h1>Testing Email</h1><p>This test email has been sent based on the following configuration:</p>  <p><pre>%1$s</pre></p>',
                 'EMAIL_FOOTER' => 'GetGrav.org'
             ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'Search …',
+                'SEARCH_RESULTS' => 'Search Results',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Query: <strong>%s</strong> found one result',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Query: <strong>%s</strong> found %s results',
+                'SEARCH_FIELD_MINIMUM_CHARACTERS' => 'Please add at least %s characters'
+            ],
             'FRONTMATTER_ERROR_PAGE' => '---
 title: %1$s
 ---
@@ -3128,6 +3147,12 @@ Tienes **2FA** habilitado en esta cuenta. Por favor usa tu aplicación **2FA** p
                 'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Por favor configura una dirección de \'remitente\' en la configuración del Plugin de Email o en el formulario',
                 'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Por favor configura una dirección de \'destinatario\' en la configuración del Plugin de Email o en el formulario'
             ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'Buscar …',
+                'SEARCH_RESULTS' => 'Resultados de la búsqueda',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Consulta: <strong>%s</strong> se encontró 1 resultado',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Consulta: <strong>%s</strong> se encontraron %s resultados'
+            ],
             'FRONTMATTER_ERROR_PAGE' => '---
 title: %1$s
 ---
@@ -4056,6 +4081,13 @@ Ruta: `%2$s`
                 'TEST_EMAIL_BODY' => '<h1>E-mail de test</h1><p>Cet e-mail de test est basé sur la configuration suivante :</p>  <p><pre>%1$s</pre></p>',
                 'EMAIL_FOOTER' => 'GetGrav.org'
             ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'Recherche …',
+                'SEARCH_RESULTS' => 'Résultats de la recherche',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Recherche : Un résultat trouvé pour <strong>%s</strong>',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Recherche : %2$s résultats trouvés pour <strong>%1$s</strong>',
+                'SEARCH_FIELD_MINIMUM_CHARACTERS' => 'Veuillez ajouter au moins %s caractères'
+            ],
             'FRONTMATTER_ERROR_PAGE' => '---
 title: %1$s
 ---
@@ -4834,6 +4866,12 @@ Path: `%2$s`
                 'EMAIL_NOT_CONFIGURED' => 'Email nije konfiguriran',
                 'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Konfigurirajte \'za\' (\'to\') adresu u postavkama Email dodatka ili u obrascu',
                 'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Konfigurirajte \'od\' (\'from\') adresu u postavkama Email dodatka ili u obrascu'
+            ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'Traži …',
+                'SEARCH_RESULTS' => 'Rezultati pretrage',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Upit: <strong>%s</strong> je pronašao jedan rezultat',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Upit: <strong>%s</strong> je pronašao %s rezultata'
             ],
             'INFLECTOR_UNCOUNTABLE' => [
                 0 => 'oprema',
@@ -7457,6 +7495,12 @@ Aveți **2FA** activată pentru acest cont. Vă rugăm folosiți aplicația pent
                 'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Vă rugam setați o adresă \'către\' în setările modulului Email sau în formular',
                 'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Vă rugam setați o adresă \'de la\' în setările modulului Email sau în formular'
             ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'Caută …',
+                'SEARCH_RESULTS' => 'Rezultatele căutării',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Căutarea: <strong>%s</strong> a găsit un rezultat',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Căutarea: <strong>%s</strong> a găsit %s rezultate'
+            ],
             'FRONTMATTER_ERROR_PAGE' => '---
 Titlu: %1$s
 ---
@@ -8421,6 +8465,13 @@ Calea: `%2$s`
                 'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Пожалуйста настройте адрес отправителя (\'from\') в настройках плагина Email Plugin, или на форме',
                 'TEST_EMAIL_BODY' => '<h1>Тестирование электронной почты</h1><p>Это тестовое письмо отправлено на основе следующей конфигурации:</p>  <p><pre>%1$s</pre></p>',
                 'EMAIL_FOOTER' => 'GetGrav.org'
+            ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'Найти …',
+                'SEARCH_RESULTS' => 'Результат поиска',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'По запросу: <strong>%s</strong> результатов найдено 1',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'По запросу: <strong>%s</strong> результатов найдено %s',
+                'SEARCH_FIELD_MINIMUM_CHARACTERS' => 'Добавьте не менее %s символов'
             ],
             'FRONTMATTER_ERROR_PAGE' => '---
 title: %1$s
@@ -10976,6 +11027,12 @@ Máte na svém účtu aktivováno **dvoufaktorové ověřování**. Pro dokonče
                 'YES' => 'Ano',
                 'NO' => 'Ne'
             ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'Vyhledat …',
+                'SEARCH_RESULTS' => 'Výsledky hledání',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Hledání výrazu \'<strong>%s</strong>\' našlo jeden výsledek',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Hledání výrazu \'<strong>%s</strong>\' našlo %s výsledků'
+            ],
             'INFLECTOR_UNCOUNTABLE' => [
                 0 => 'vybavení',
                 1 => 'informace',
@@ -11856,6 +11913,12 @@ Du har **2FA** aktiveret for denne konto. Benyt venligst din **2FA**-app til at 
             'PLUGIN_EMAIL' => [
                 'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Konfigurere venligst en \'til\' email adresse i Email Plugin indstillingerne eller her i formularen',
                 'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Konfigurere venligst en \'fra\' email adresse i Email Plugin indstillingerne eller her i formularen'
+            ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'Søg …',
+                'SEARCH_RESULTS' => 'Søgeresultat',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Søgning: <strong>%s</strong> fandt et resultat',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Søgning: <strong>%s</strong> fandt %s resultater'
             ],
             'FRONTMATTER_ERROR_PAGE' => '---
 Titel: %1$s
@@ -13823,6 +13886,12 @@ Sti: `%2$s`
                 'OFFLINE_WARNING' => 'اتصال به GPM امکان پذیر نمیباشد',
                 'CLI_COMPATIBILITY' => 'سازگاری CLI',
                 'CLI_COMPATIBILITY_HELP' => 'دقت کنید فقط از کش کننده های سبک استفاده شود (file، redis، memcache و...)'
+            ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'جستجو …',
+                'SEARCH_RESULTS' => 'نتایج جستجو',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'جستار: <strong>%s</strong> یک نتیجه یافت شد',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'جستار: <strong>%s</strong> %s نتیجه یافت شد'
             ]
         ],
         'fi' => [
@@ -15553,6 +15622,13 @@ La **2FA** è abilitata per questo account. Si prega di utilizzare la vostra app
                 'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Per favore, configura l\'indirizzo di destinazione (\'to\') nella configurazione del Plugin Email, oppure direttamente nella form.',
                 'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Per favore, configura l\'indirizzo di provenienza (\'from\') nella configurazione del Plugin Email, oppure direttamente nella form'
             ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'Cerca …',
+                'SEARCH_RESULTS' => 'Risultati della ricerca',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Ricerca: <strong>%s</strong>. Trovato un risultato',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Ricerca: <strong>%s</strong>. Trovati %s risultati',
+                'SEARCH_FIELD_MINIMUM_CHARACTERS' => 'Inserisci almeno %s caratteri'
+            ],
             'FRONTMATTER_ERROR_PAGE' => '---Titolo: %1$s---# Errore: Frontmatter non valido: \'%2$s\' * *%3$s * * \' \'%4$s \' \'',
             'NICETIME' => [
                 'NO_DATE_PROVIDED' => 'Nessuna data fornita',
@@ -16262,6 +16338,12 @@ La **2FA** è abilitata per questo account. Si prega di utilizzare la vostra app
                 '2FA_CODE_INPUT' => '000000',
                 '2FA_SECRET' => '二段階認証',
                 '2FA_REGENERATE' => '再生成'
+            ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => '検索する …',
+                'SEARCH_RESULTS' => '検索結果',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => '検索 : <strong>%s</strong> に一つの結果があります。',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => '検索 : <strong>%s</strong> に %s の結果があります。'
             ],
             'FRONTMATTER_ERROR_PAGE' => '---
 title: %1$s
@@ -17634,6 +17716,12 @@ Path: `%2$s`
                 'RANDOM_NAME' => 'Willekeurige naam',
                 'RANDOM_NAME_HELP' => 'Genereer een willekeurige naam van 15 karakters voor de geuploade bestanden'
             ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'Zoeken …',
+                'SEARCH_RESULTS' => 'Zoek resultaat',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Query: <strong>%s</strong> is 1 keer gevonden',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Query: <strong>%s</strong> is %s keer gevonden'
+            ],
             'INFLECTOR_IRREGULAR' => [
                 'person' => 'personen',
                 'man' => 'mensen',
@@ -18965,6 +19053,12 @@ Path: `%2$s`
                 'TO' => 'para',
                 'RESOURCE_FILTER' => 'Filtro...'
             ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'O que você procura?',
+                'SEARCH_RESULTS' => 'Resultados da pesquisa',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Pesquisa: <strong>%s</strong>. Foram encontrados 1 resultados',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Pesquisa: <strong>%s</strong>. Foram encontrados %s resultados'
+            ],
             'FRONTMATTER_ERROR_PAGE' => '---
 título: %1$s
 ---
@@ -20149,6 +20243,12 @@ Caminho: `%2$s`
                 'ALLOW_WEBSERVER_GZIP' => 'Tillåt WebServer Gzip',
                 'OFFLINE_WARNING' => 'Anslutningen till GPM inte kan fastställas',
                 'CLI_COMPATIBILITY' => 'CLI kompatibilitet'
+            ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'Sök …',
+                'SEARCH_RESULTS' => 'Sökresultat',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Sökning: <strong>%s</strong> hittade ett resultat',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Sökning: <strong>%s</strong> hittade %s resultat'
             ],
             'FRONTMATTER_ERROR_PAGE' => '--- titel: %1$s --- # Fel: Ogiltig Frontmatter-sökväg: `%2$s` **%3$s** ``` %4$s ```',
             'NICETIME' => [
@@ -22863,6 +22963,12 @@ Path: `%2$s`
             'PLUGIN_ERROR' => [
                 'ERROR' => '错误',
                 'ERROR_MESSAGE' => '呃，似乎这个页面不存在。'
+            ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => '搜索 …',
+                'SEARCH_RESULTS' => '搜索结果',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => '查询: <strong>%s</strong> 找到 1 个结果',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => '查询: <strong>%s</strong> 找到 %s 个结果'
             ]
         ],
         'nb' => [
@@ -22890,7 +22996,7 @@ Path: `%2$s`
                 6 => 'søndag'
             ]
         ],
-        'checksum' => '9875d9b8f4ea4a2091e211318f21f0a8',
-        'timestamp' => 1539086437
+        'checksum' => 'ffdfe8cd0e6581f664b7574078726d0a',
+        'timestamp' => 1539600853
     ]
 ];

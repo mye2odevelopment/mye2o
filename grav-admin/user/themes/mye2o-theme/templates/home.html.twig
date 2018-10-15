@@ -1,6 +1,17 @@
 {% extends 'partials/base.html.twig' %}
 
+{# {% block stylesheets %}
+    {% do assets.addCss('theme://css/various.css') %}
+    {% do assets.addCss('theme://css/realhome.css') %}
+    {{ parent() }}
+{% endblock %} #}
+
 {% block content %}
     {{ page.content }}
     {% include 'partials/home-skeleton.html.twig' %}
 {% endblock %}
+
+{# {% block javascript %}
+    {% do assets.addJs('theme://js/common_scripts.js') %}
+    {% do assets.addJs('theme://js/main.js') %}
+{% endblock %} #}

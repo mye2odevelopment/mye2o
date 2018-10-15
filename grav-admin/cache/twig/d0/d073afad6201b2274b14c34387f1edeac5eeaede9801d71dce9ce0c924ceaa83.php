@@ -29,6 +29,9 @@ class __TwigTemplate_0abe697acbba4eecf8cb612a59330e862f4c6cadb4ee02d127eb92ee267
     {
         // line 4
         echo "    ";
+        $this->loadTemplate("partials/simplesearch_searchbox.html.twig", "default.html.twig", 4)->display($context);
+        // line 5
+        echo "    ";
         echo $this->getAttribute(($context["page"] ?? null), "content", array());
         echo "
 ";
@@ -46,7 +49,7 @@ class __TwigTemplate_0abe697acbba4eecf8cb612a59330e862f4c6cadb4ee02d127eb92ee267
 
     public function getDebugInfo()
     {
-        return array (  31 => 4,  28 => 3,  11 => 1,);
+        return array (  34 => 5,  31 => 4,  28 => 3,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -62,6 +65,7 @@ class __TwigTemplate_0abe697acbba4eecf8cb612a59330e862f4c6cadb4ee02d127eb92ee267
         return new Twig_Source("{% extends 'partials/base.html.twig' %}
 
 {% block content %}
+    {% include 'partials/simplesearch_searchbox.html.twig' %}
     {{ page.content }}
 {% endblock %}
 ", "default.html.twig", "/home/factoria/carpetagit/mye2o/grav-admin/user/themes/mye2o-theme/templates/default.html.twig");

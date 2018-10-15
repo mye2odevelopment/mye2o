@@ -552,6 +552,6 @@ class __TwigTemplate_46f30d5e4dc2e006161ef5cc679768c6ceeb931b6acd72a2d41e6127d87
     {% endblock body %}
     </html>
 {% endif %}
-", "partials/base-root.html.twig", "/Applications/MAMP/htdocs/mye2o/grav-admin/user/plugins/admin/themes/grav/templates/partials/base-root.html.twig");
+", "partials/base-root.html.twig", "/home/factoria/carpetagit/mye2o/grav-admin/user/plugins/admin/themes/grav/templates/partials/base-root.html.twig");
     }
 }

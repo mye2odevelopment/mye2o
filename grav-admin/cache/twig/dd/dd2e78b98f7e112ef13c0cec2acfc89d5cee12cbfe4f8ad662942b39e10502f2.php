@@ -117,6 +117,6 @@ class __TwigTemplate_636484b4aa4eb0c94a9e2464cb7cc7ffcf90f89d2f962f8397f9da10a71
 {% else %}
     <div class=\"padding\">You don't have sufficient access to view the dashboard...</div>
 {% endif %}
-", "partials/dashboard-pages.html.twig", "/Applications/MAMP/htdocs/mye2o/grav-admin/user/plugins/admin/themes/grav/templates/partials/dashboard-pages.html.twig");
+", "partials/dashboard-pages.html.twig", "/home/factoria/carpetagit/mye2o/grav-admin/user/plugins/admin/themes/grav/templates/partials/dashboard-pages.html.twig");
     }
 }

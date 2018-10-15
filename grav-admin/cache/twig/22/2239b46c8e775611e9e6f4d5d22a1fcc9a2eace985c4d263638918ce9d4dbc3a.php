@@ -79,6 +79,6 @@ class __TwigTemplate_b470fad7e773eaaf07a4c5dbc537ebde2703585aaa73d168db3f0c227e6
     {% endif %}
 {% else %}
     {% include 'partials/login-form.html.twig' %}
-{% endif %}", "login.html.twig", "/Applications/MAMP/htdocs/mye2o/grav-admin/user/plugins/admin/themes/grav/templates/login.html.twig");
+{% endif %}", "login.html.twig", "/home/factoria/carpetagit/mye2o/grav-admin/user/plugins/admin/themes/grav/templates/login.html.twig");
     }
 }

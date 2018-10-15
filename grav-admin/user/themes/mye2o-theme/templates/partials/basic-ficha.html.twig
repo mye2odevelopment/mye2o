@@ -1,1 +1,11 @@
 
+<h1>{{ page.header.title }}</h1>
+<h2>{{page.header.autor}}</h2>
+<p>{{page.sumary}}</p>
+{% for item in page.taxonomy.tag %}
+    <ul>
+        <li>{{ item }}</li>
+    </ul>
+{% endfor %}
+
+<p>{{page.content}}</p>

@@ -48,6 +48,6 @@ class __TwigTemplate_18371510a40508c4f730af81061ff80f814258024125141ad7e9c8b18f3
     public function getSourceContext()
     {
         return new Twig_Source("<img src=\"{{ admin.user.avatarUrl() }}?s=47\" />
-", "partials/nav-user-avatar.html.twig", "/Applications/MAMP/htdocs/mye2o/grav-admin/user/plugins/admin/themes/grav/templates/partials/nav-user-avatar.html.twig");
+", "partials/nav-user-avatar.html.twig", "/home/factoria/carpetagit/mye2o/grav-admin/user/plugins/admin/themes/grav/templates/partials/nav-user-avatar.html.twig");
     }
 }

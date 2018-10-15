@@ -144,6 +144,6 @@ class __TwigTemplate_c070554afc91b059fca5a6bae21943e5a75272681ca2d184b488c8e2e89
     {% include 'partials/modal-update-packages.html.twig' with { type: 'plugin' } %}
 
 {% endif %}
-", "partials/dashboard-maintenance.html.twig", "/Applications/MAMP/htdocs/mye2o/grav-admin/user/plugins/admin/themes/grav/templates/partials/dashboard-maintenance.html.twig");
+", "partials/dashboard-maintenance.html.twig", "/home/factoria/carpetagit/mye2o/grav-admin/user/plugins/admin/themes/grav/templates/partials/dashboard-maintenance.html.twig");
     }
 }
