@@ -1,0 +1,32 @@
+#body {
+  margin: 50px;
+  overflow-x: hidden; }
+
+.main {
+  margin-top: 100px; }
+
+.content {
+  justify-content: center;
+  height: fit-content;
+  overflow-x: hidden; }
+  .content p {
+    padding: 5px;
+    font-size: 24px; }
+
+.side-bar {
+  margin-top: 30px;
+  border: 1px solid black;
+  height: 800px; }
+  .side-bar h3 {
+    border-bottom: 1px solid gray; }
+  .side-bar h4 {
+    margin: 50px;
+    justify-content: center; }
+
+.map {
+  margin-left: 0 !important; }
+
+.caja-tags {
+  margin-left: 10px; }
+
+/*# sourceMappingURL=fichaTest.css.map */

@@ -36,32 +36,32 @@ class __TwigTemplate_7ad7daa9a8a1f1c3446899bbc057bb7d8d3c1fc89c2dacfa8edaa63542e
 ";
         // line 5
         $this->displayBlock('head', $context, $blocks);
-        // line 36
+        // line 37
         echo "</head>
 <body id=\"top\" class=\"";
-        // line 37
+        // line 38
         echo $this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", array()), "body_classes", array());
         echo "\">
 
 ";
-        // line 39
+        // line 40
         $this->displayBlock('header', $context, $blocks);
-        // line 54
-        echo "
-";
         // line 55
+        echo "
+";
+        // line 56
         $this->displayBlock('body', $context, $blocks);
-        // line 62
-        echo "
-";
         // line 63
-        $this->displayBlock('footer', $context, $blocks);
-        // line 70
         echo "
 ";
+        // line 64
+        $this->displayBlock('footer', $context, $blocks);
         // line 71
+        echo "
+";
+        // line 72
         $this->displayBlock('bottom', $context, $blocks);
-        // line 74
+        // line 75
         echo "
 </body>
 </html>
@@ -101,15 +101,15 @@ class __TwigTemplate_7ad7daa9a8a1f1c3446899bbc057bb7d8d3c1fc89c2dacfa8edaa63542e
     ";
         // line 16
         $this->displayBlock('stylesheets', $context, $blocks);
-        // line 25
+        // line 26
         echo "    ";
         echo $this->getAttribute(($context["assets"] ?? null), "css", array(), "method");
         echo "
 
     ";
-        // line 27
+        // line 28
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 33
+        // line 34
         echo "    ";
         echo $this->getAttribute(($context["assets"] ?? null), "js", array(), "method");
         echo "
@@ -137,90 +137,93 @@ class __TwigTemplate_7ad7daa9a8a1f1c3446899bbc057bb7d8d3c1fc89c2dacfa8edaa63542e
         echo "        ";
         $this->getAttribute(($context["assets"] ?? null), "addCss", array(0 => "theme://css-compiled/ficha.css", 1 => 95), "method");
         // line 22
+        echo "        ";
+        $this->getAttribute(($context["assets"] ?? null), "addCss", array(0 => "theme://css-compiled/fichaTest.css", 1 => 94), "method");
+        // line 23
         echo "
 
     ";
     }
 
-    // line 27
+    // line 28
     public function block_javascripts($context, array $blocks = array())
     {
-        // line 28
-        echo "        ";
         // line 29
+        echo "        ";
+        // line 30
         echo "        
         ";
-        // line 30
-        $this->getAttribute(($context["assets"] ?? null), "addJs", array(0 => "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"), "method");
         // line 31
+        $this->getAttribute(($context["assets"] ?? null), "addJs", array(0 => "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"), "method");
+        // line 32
         echo "        ";
         $this->getAttribute(($context["assets"] ?? null), "addJs", array(0 => "theme://js/app.js", 1 => 99), "method");
-        // line 32
+        // line 33
         echo "    ";
     }
 
-    // line 39
+    // line 40
     public function block_header($context, array $blocks = array())
     {
-        // line 40
+        // line 41
         echo "    <div class=\"header\">
         <div class=\"wrapper padding\">
             <a class=\"logo left\" href=\"";
-        // line 42
+        // line 43
         echo (((($context["base_url"] ?? null) == "")) ? ("/") : (($context["base_url"] ?? null)));
         echo "\">
                 <i class=\"fa fa-rebel\"></i>
                 ";
-        // line 44
+        // line 45
         echo $this->getAttribute($this->getAttribute(($context["config"] ?? null), "site", array()), "title", array());
         echo "
             </a>
             ";
-        // line 46
+        // line 47
         $this->displayBlock('header_navigation', $context, $blocks);
-        // line 51
+        // line 52
         echo "        </div>
     </div>
 ";
     }
 
-    // line 46
+    // line 47
     public function block_header_navigation($context, array $blocks = array())
     {
-        // line 47
+        // line 48
         echo "            <nav class=\"main-nav\">
                 ";
-        // line 48
-        $this->loadTemplate("partials/navigation.html.twig", "partials/base.html.twig", 48)->display($context);
         // line 49
+        $this->loadTemplate("partials/navigation.html.twig", "partials/base.html.twig", 49)->display($context);
+        // line 50
         echo "            </nav>
             ";
     }
 
-    // line 55
+    // line 56
     public function block_body($context, array $blocks = array())
     {
-        // line 56
+        // line 57
         echo "    <section id=\"body\">
         <div class=\"wrapper padding\">
         ";
-        // line 58
-        $this->displayBlock('content', $context, $blocks);
         // line 59
+        $this->displayBlock('content', $context, $blocks);
+        // line 60
         echo "        </div>
     </section>
 ";
     }
 
-    // line 58
+    // line 59
     public function block_content($context, array $blocks = array())
     {
     }
 
-    // line 63
+    // line 64
     public function block_footer($context, array $blocks = array())
     {
-        // line 64
+        // line 65
         echo "    <div class=\"footer text-center\">
         <div class=\"wrapper padding\">
             <p><a href=\"http://getgrav.org\">Grav</a> was <i class=\"fa fa-code\"></i> with <i class=\"fa fa-heart\"></i> by <a href=\"http://www.rockettheme.com\">RocketTheme</a>.</p>
@@ -229,10 +232,10 @@ class __TwigTemplate_7ad7daa9a8a1f1c3446899bbc057bb7d8d3c1fc89c2dacfa8edaa63542e
 ";
     }
 
-    // line 71
+    // line 72
     public function block_bottom($context, array $blocks = array())
     {
-        // line 72
+        // line 73
         echo "    ";
         echo $this->getAttribute(($context["assets"] ?? null), "js", array(0 => "bottom"), "method");
         echo "
@@ -251,7 +254,7 @@ class __TwigTemplate_7ad7daa9a8a1f1c3446899bbc057bb7d8d3c1fc89c2dacfa8edaa63542e
 
     public function getDebugInfo()
     {
-        return array (  236 => 72,  233 => 71,  224 => 64,  221 => 63,  216 => 58,  210 => 59,  208 => 58,  204 => 56,  201 => 55,  196 => 49,  194 => 48,  191 => 47,  188 => 46,  182 => 51,  180 => 46,  175 => 44,  170 => 42,  166 => 40,  163 => 39,  159 => 32,  156 => 31,  154 => 30,  151 => 29,  149 => 28,  146 => 27,  140 => 22,  137 => 21,  134 => 20,  131 => 19,  128 => 18,  126 => 17,  121 => 16,  113 => 33,  111 => 27,  105 => 25,  103 => 16,  98 => 14,  94 => 13,  91 => 12,  89 => 11,  78 => 7,  75 => 6,  72 => 5,  65 => 74,  63 => 71,  60 => 70,  58 => 63,  55 => 62,  53 => 55,  50 => 54,  48 => 39,  43 => 37,  40 => 36,  38 => 5,  33 => 3,  30 => 2,  28 => 1,);
+        return array (  239 => 73,  236 => 72,  227 => 65,  224 => 64,  219 => 59,  213 => 60,  211 => 59,  207 => 57,  204 => 56,  199 => 50,  197 => 49,  194 => 48,  191 => 47,  185 => 52,  183 => 47,  178 => 45,  173 => 43,  169 => 41,  166 => 40,  162 => 33,  159 => 32,  157 => 31,  154 => 30,  152 => 29,  149 => 28,  143 => 23,  140 => 22,  137 => 21,  134 => 20,  131 => 19,  128 => 18,  126 => 17,  121 => 16,  113 => 34,  111 => 28,  105 => 26,  103 => 16,  98 => 14,  94 => 13,  91 => 12,  89 => 11,  78 => 7,  75 => 6,  72 => 5,  65 => 75,  63 => 72,  60 => 71,  58 => 64,  55 => 63,  53 => 56,  50 => 55,  48 => 40,  43 => 38,  40 => 37,  38 => 5,  33 => 3,  30 => 2,  28 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -285,6 +288,7 @@ class __TwigTemplate_7ad7daa9a8a1f1c3446899bbc057bb7d8d3c1fc89c2dacfa8edaa63542e
         {% do assets.addCss('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', 99) %}
         {% do assets.addCss('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css', 96)  %}
         {% do assets.addCss('theme://css-compiled/ficha.css', 95) %}
+        {% do assets.addCss('theme://css-compiled/fichaTest.css', 94) %}
 
 
     {% endblock %}
