@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/factoria/carpetagit/mye2o/grav-admin/user/themes/mye2o-theme/blueprints.yaml',
-    'modified' => 1539095242,
+    'modified' => 1539704762,
     'data' => [
         'name' => 'Mye2o Theme',
         'version' => '0.1.0',

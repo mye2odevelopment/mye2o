@@ -70,6 +70,6 @@ class __TwigTemplate_f628e7934be19c62ba61e55915d04abc33053314311ceda07765ae18a27
     {% if field.disabled or isDisabledToggleable %}disabled=\"disabled\"{% endif %}
     name=\"{{ (scope ~ field.name)|fieldName }}\"
     value=\"{{ blueprints.name }}\" />
-", "forms/fields/blueprint/blueprint.html.twig", "/Applications/MAMP/htdocs/mye2o/grav-admin/user/plugins/admin/themes/grav/templates/forms/fields/blueprint/blueprint.html.twig");
+", "forms/fields/blueprint/blueprint.html.twig", "/home/factoria/carpetagit/mye2o/grav-admin/user/plugins/admin/themes/grav/templates/forms/fields/blueprint/blueprint.html.twig");
     }
 }

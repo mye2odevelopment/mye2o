@@ -1,3 +1,4 @@
+@charset "UTF-8";
 #body {
   margin: 50px;
   overflow-x: hidden; }
@@ -28,5 +29,21 @@
 
 .caja-tags {
   margin-left: 10px; }
+
+.Tomillo {
+  background-image: url("../images/entidades/tomillo.svg");
+  background-repeat: no-repeat;
+  content: ""; }
+
+.Peñascal {
+  background-image: url("../images/entidades/peñascal.png");
+  background-repeat: no-repeat;
+  content: ""; }
+
+.castilla-leon {
+  background-image: url("../images/localidades/map.png");
+  background-repeat: no-repeat;
+  content: "";
+  padding: 160px; }
 
 /*# sourceMappingURL=fichaTest.css.map */

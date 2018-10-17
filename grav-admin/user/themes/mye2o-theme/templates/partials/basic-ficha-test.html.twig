@@ -8,9 +8,9 @@
 <div class="container">
     <div class="row">
     
-        <div class="col-ls">
+        <div class="{{page.header.entidad}} col">
+            {# <img src="{{ url('theme://images/Tomillo.svg')}}" alt="" height="80"> #}
 
-            <img src="{{ url('theme://images/logoTomillo.svg') }}" alt="" height="80">
         </div>
         <div class="col-md">
             <h1 class="text-right">{{page.title}}</h1>
@@ -36,7 +36,9 @@
         {{ page.content}}
     </div>
     <aside class="col-4">
-        <div><img class="map" src="{{ url('theme://images/map.png') }}" class="img-fluid" alt="Responsive image"></div>
+        <div class="{{page.header.localidad}}">
+            {# <img class="map" src="{{ url('theme://images/map.png') }}" class="img-fluid" alt="Responsive image"> #}
+        </div>
         <div class="side-bar">
             <h3>barra lateral</h3>
             <h4> tags </h4>

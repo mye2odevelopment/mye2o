@@ -37,6 +37,6 @@ class __TwigTemplate_6170e3a1a1d64cb1a9ea1c8156ba931b9e9517788ed9fa4e386ce3d9522
 
     public function getSourceContext()
     {
-        return new Twig_Source("", "empty.html.twig", "/Applications/MAMP/htdocs/mye2o/grav-admin/user/plugins/admin/themes/grav/templates/empty.html.twig");
+        return new Twig_Source("", "empty.html.twig", "/home/factoria/carpetagit/mye2o/grav-admin/user/plugins/admin/themes/grav/templates/empty.html.twig");
     }
 }
