@@ -141,6 +141,6 @@ class __TwigTemplate_b776f73a6dc2f3287215edb2aa9340445758e311b733892afdcd2c4351b
     {{ nonce_field('admin-form', 'admin-nonce')|raw }}
 
 </form>
-", "partials/blueprints-new.html.twig", "/Applications/MAMP/htdocs/mye2o/grav-admin/user/plugins/admin/themes/grav/templates/partials/blueprints-new.html.twig");
+", "partials/blueprints-new.html.twig", "/home/factoria/carpetagit/mye2o/grav-admin/user/plugins/admin/themes/grav/templates/partials/blueprints-new.html.twig");
     }
 }

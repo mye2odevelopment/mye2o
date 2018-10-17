@@ -84,6 +84,6 @@ class __TwigTemplate_09e6af13b8c67449d51074d97002f5f2f866a771fc0404bdc5c328d6243
 </div>
 
 
-", "partials/page-legend.html.twig", "/Applications/MAMP/htdocs/mye2o/grav-admin/user/plugins/admin/themes/grav/templates/partials/page-legend.html.twig");
+", "partials/page-legend.html.twig", "/home/factoria/carpetagit/mye2o/grav-admin/user/plugins/admin/themes/grav/templates/partials/page-legend.html.twig");
     }
 }

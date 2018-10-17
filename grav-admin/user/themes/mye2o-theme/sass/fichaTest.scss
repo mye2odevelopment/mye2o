@@ -1,0 +1,40 @@
+#body{
+    margin: 50px;
+    overflow-x: hidden;
+}
+
+.main{
+    margin-top: 100px;
+}
+
+.content{
+    justify-content: center;
+    height: fit-content;
+    overflow-x: hidden;
+    p{
+        padding: 5px;
+        font-size: 24px;
+    }
+}
+
+.side-bar{
+    margin-top: 30px;
+    border: 1px solid black;
+    height: 800px;
+    
+    h3{
+        border-bottom: 1px solid gray;
+    }
+    h4{
+        margin: 50px;
+        justify-content: center;
+    }
+}
+.map{
+    margin-left: 0 !important;
+}
+.caja-tags{
+    margin-left: 10px;
+}
+@import 'entidades';
+@import 'localidades';

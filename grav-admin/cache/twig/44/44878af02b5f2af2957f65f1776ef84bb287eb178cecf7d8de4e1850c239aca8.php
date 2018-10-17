@@ -106,6 +106,6 @@ class __TwigTemplate_bd5f30b1c9905e899cec8bb55e2d4ce8ccae54c7fcfa4fea0ff5cd885c7
     {% endfor %}
     </div>
 {% endif %}
-", "forms/fields/column/column.html.twig", "/Applications/MAMP/htdocs/mye2o/grav-admin/user/plugins/admin/themes/grav/templates/forms/fields/column/column.html.twig");
+", "forms/fields/column/column.html.twig", "/home/factoria/carpetagit/mye2o/grav-admin/user/plugins/admin/themes/grav/templates/forms/fields/column/column.html.twig");
     }
 }

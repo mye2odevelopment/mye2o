@@ -1,0 +1,49 @@
+@charset "UTF-8";
+#body {
+  margin: 50px;
+  overflow-x: hidden; }
+
+.main {
+  margin-top: 100px; }
+
+.content {
+  justify-content: center;
+  height: fit-content;
+  overflow-x: hidden; }
+  .content p {
+    padding: 5px;
+    font-size: 24px; }
+
+.side-bar {
+  margin-top: 30px;
+  border: 1px solid black;
+  height: 800px; }
+  .side-bar h3 {
+    border-bottom: 1px solid gray; }
+  .side-bar h4 {
+    margin: 50px;
+    justify-content: center; }
+
+.map {
+  margin-left: 0 !important; }
+
+.caja-tags {
+  margin-left: 10px; }
+
+.Tomillo {
+  background-image: url("../images/entidades/tomillo.svg");
+  background-repeat: no-repeat;
+  content: ""; }
+
+.Peñascal {
+  background-image: url("../images/entidades/peñascal.png");
+  background-repeat: no-repeat;
+  content: ""; }
+
+.castilla-leon {
+  background-image: url("../images/localidades/map.png");
+  background-repeat: no-repeat;
+  content: "";
+  padding: 160px; }
+
+/*# sourceMappingURL=fichaTest.css.map */

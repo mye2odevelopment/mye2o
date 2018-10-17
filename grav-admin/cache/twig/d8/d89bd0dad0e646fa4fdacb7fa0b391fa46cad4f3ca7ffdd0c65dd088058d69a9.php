@@ -198,6 +198,6 @@ class __TwigTemplate_c701490a0d1369cd4abec3521bef73cbd46899d5126a9146651f6aa0c8a
     {% endif %}
 </ul>
 
-", "partials/nav-quick-tray.html.twig", "/Applications/MAMP/htdocs/mye2o/grav-admin/user/plugins/admin/themes/grav/templates/partials/nav-quick-tray.html.twig");
+", "partials/nav-quick-tray.html.twig", "/home/factoria/carpetagit/mye2o/grav-admin/user/plugins/admin/themes/grav/templates/partials/nav-quick-tray.html.twig");
     }
 }

@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1539616027,
-    'checksum' => 'c11c2232d303a05d26961c53b4502345',
+    'timestamp' => 1539705781,
+    'checksum' => '023399498643d119da8c85efed7476fd',
     'files' => [
         'user/config' => [
             'media' => [
@@ -23,7 +23,11 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1539095242
+                'modified' => 1539705780
+            ],
+            'themes/mye2o-theme' => [
+                'file' => 'user/config/themes/mye2o-theme.yaml',
+                'modified' => 1539704751
             ]
         ],
         'system/config' => [
@@ -797,6 +801,14 @@ return [
             'strict_mode' => [
                 'yaml_compat' => true,
                 'twig_compat' => true
+            ]
+        ],
+        'themes' => [
+            'mye2o-theme' => [
+                'enabled' => true,
+                'dropdown' => [
+                    'enabled' => true
+                ]
             ]
         ]
     ]

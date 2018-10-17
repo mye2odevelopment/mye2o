@@ -1,0 +1,52 @@
+{% for item in page.taxonomy.category %}
+<ol class="breadcrumb bg-white">
+    <li class="breadcrumb-item"><a class="categoriaBread" href="#">CATEGORIAS</a></li>
+    <li class="breadcrumb-item currentCategoria" aria-current="page">{{item}}</li>
+</ol>
+{% endfor %}
+</nav>
+<div class="container">
+    <div class="row">
+    
+        <div class="{{page.header.entidad}} col">
+            {# <img src="{{ url('theme://images/Tomillo.svg')}}" alt="" height="80"> #}
+
+        </div>
+        <div class="col-md">
+            <h1 class="text-right">{{page.title}}</h1>
+        </div>
+    </div>
+</div>
+<h3 class="text-right font-italic author">{{page.header.autor}}<a href="">
+
+        <img src="{{ url('theme://images/contactAuthor.png') }}" alt="" height="80">
+    </a></h3>
+
+
+<!-- subtitle with readmore container collapse end-->
+<div id="subtitulo" class="subtitle text-justify border">
+    <p> Propuesta de formación especializada dirigida a mejorar la empleabilidad, incluyendo acciones de formación en
+        competencias técnicas-profesionales y básicas, acompañamiento individualizado, incorporando a la empresa de una
+        manera flexible en distintas fases de la acción formativa.
+    </p>
+</div>
+
+<section class="main row">
+    <div class="col-8 content">
+        {{ page.content}}
+    </div>
+    <aside class="col-4">
+        <div class="{{page.header.localidad}}">
+            {# <img class="map" src="{{ url('theme://images/map.png') }}" class="img-fluid" alt="Responsive image"> #}
+        </div>
+        <div class="side-bar">
+            <h3>barra lateral</h3>
+            <h4> tags </h4>
+            {% for tag in page.taxonomy.tag %}
+            <ul class="caja-tags">
+                <li><a class="btn btn rounded-0 border tagsTwo" href="#" role="button">{{ tag }}</a></li>
+            </ul>
+            {% endfor %}
+        </div>
+    </aside>
+</section>
