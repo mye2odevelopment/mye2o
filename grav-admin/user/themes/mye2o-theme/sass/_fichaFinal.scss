@@ -1,0 +1,41 @@
+.banner{
+    background: url('../images/foto11.jpg') center center no-repeat fixed;
+    background-size: cover;
+    height: 45vh;
+    
+}
+
+.box-title{
+    background-color: blue;
+    width: 65vw;
+    height: auto;
+    position: relative;
+    float: right;
+    margin-top: 250px;
+    .chorrada{
+    color: aliceblue;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+}
+.title{
+    
+    padding-left: 30px;
+    padding-bottom: 30px;
+    color: aliceblue;
+    font-size: 36px;
+}
+.resumen{
+    height: auto;
+    border: 1px solid black;
+    p{
+        padding: 15px;
+        font-size: 16px;
+    }
+}
+.tags{
+    font-size: 12px;
+}
+ul{
+    display: inline;
+}

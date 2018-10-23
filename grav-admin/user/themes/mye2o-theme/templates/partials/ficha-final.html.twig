@@ -1,0 +1,30 @@
+<section class="banner">
+
+    <div class="box-title">
+        <p class="chorrada">Buena Practica</p>
+        <p class="title">{{page.header.title}}</p>
+    </div>
+
+</section>
+<section>
+    {% for item in page.taxonomy.category %}
+    <ol class="breadcrumb bg-white">
+        <li class="breadcrumb-item"><a class="categoriaBread" href="#">CATEGORIAS</a></li>
+        <li class="breadcrumb-item currentCategoria" aria-current="page">{{item}}</li>
+    </ol>
+    {% endfor %}
+</section>
+<section class="row">
+    <div class=" offset-1 col-10 resumen">
+    <p>{{page.summary(180)}}</p>
+    </div>
+</section>
+<section class="row">
+    <div class="offset-1">
+    {% for tag in page.taxonomy.tag %}
+        <ul>
+            <li class="col-2 tags">{{tag}}</li>
+        </ul>
+    {% endfor %}
+    </div>
+</section>

@@ -10,5 +10,7 @@ taxonomy:
         - 'Formación dual -Formación en Alternancia'
         - 'Formación práctica'
 slug: tomillo
+visible: true
+routable: true
 ---
 

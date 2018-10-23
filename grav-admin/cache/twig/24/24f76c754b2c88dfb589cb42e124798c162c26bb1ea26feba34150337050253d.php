@@ -192,6 +192,6 @@ class __TwigTemplate_7be461e06ec4839f9de20f5a14af9cab8264a16b59003868bfe8cb66b97
         </div>
     </aside>
 </section>
-", "partials/basic-ficha-test.html.twig", "/Applications/MAMP/htdocs/mye2o/grav-admin/user/themes/mye2o-theme/templates/partials/basic-ficha-test.html.twig");
+", "partials/basic-ficha-test.html.twig", "/home/factoria/carpetagit/mye2o/grav-admin/user/themes/mye2o-theme/templates/partials/basic-ficha-test.html.twig");
     }
 }

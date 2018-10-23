@@ -224,12 +224,7 @@ class __TwigTemplate_7ad7daa9a8a1f1c3446899bbc057bb7d8d3c1fc89c2dacfa8edaa63542e
     public function block_footer($context, array $blocks = array())
     {
         // line 65
-        echo "    <div class=\"footer text-center\">
-        <div class=\"wrapper padding\">
-            <p><a href=\"http://getgrav.org\">Grav</a> was <i class=\"fa fa-code\"></i> with <i class=\"fa fa-heart\"></i> by <a href=\"http://www.rockettheme.com\">RocketTheme</a>.</p>
-        </div>
-    </div>
-";
+        echo "    ";
     }
 
     // line 72
@@ -254,7 +249,7 @@ class __TwigTemplate_7ad7daa9a8a1f1c3446899bbc057bb7d8d3c1fc89c2dacfa8edaa63542e
 
     public function getDebugInfo()
     {
-        return array (  239 => 73,  236 => 72,  227 => 65,  224 => 64,  219 => 59,  213 => 60,  211 => 59,  207 => 57,  204 => 56,  199 => 50,  197 => 49,  194 => 48,  191 => 47,  185 => 52,  183 => 47,  178 => 45,  173 => 43,  169 => 41,  166 => 40,  162 => 33,  159 => 32,  157 => 31,  154 => 30,  152 => 29,  149 => 28,  143 => 23,  140 => 22,  137 => 21,  134 => 20,  131 => 19,  128 => 18,  126 => 17,  121 => 16,  113 => 34,  111 => 28,  105 => 26,  103 => 16,  98 => 14,  94 => 13,  91 => 12,  89 => 11,  78 => 7,  75 => 6,  72 => 5,  65 => 75,  63 => 72,  60 => 71,  58 => 64,  55 => 63,  53 => 56,  50 => 55,  48 => 40,  43 => 38,  40 => 37,  38 => 5,  33 => 3,  30 => 2,  28 => 1,);
+        return array (  234 => 73,  231 => 72,  227 => 65,  224 => 64,  219 => 59,  213 => 60,  211 => 59,  207 => 57,  204 => 56,  199 => 50,  197 => 49,  194 => 48,  191 => 47,  185 => 52,  183 => 47,  178 => 45,  173 => 43,  169 => 41,  166 => 40,  162 => 33,  159 => 32,  157 => 31,  154 => 30,  152 => 29,  149 => 28,  143 => 23,  140 => 22,  137 => 21,  134 => 20,  131 => 19,  128 => 18,  126 => 17,  121 => 16,  113 => 34,  111 => 28,  105 => 26,  103 => 16,  98 => 14,  94 => 13,  91 => 12,  89 => 11,  78 => 7,  75 => 6,  72 => 5,  65 => 75,  63 => 72,  60 => 71,  58 => 64,  55 => 63,  53 => 56,  50 => 55,  48 => 40,  43 => 38,  40 => 37,  38 => 5,  33 => 3,  30 => 2,  28 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -331,11 +326,11 @@ class __TwigTemplate_7ad7daa9a8a1f1c3446899bbc057bb7d8d3c1fc89c2dacfa8edaa63542e
 {% endblock %}
 
 {% block footer %}
-    <div class=\"footer text-center\">
+    {# <div class=\"footer text-center\">
         <div class=\"wrapper padding\">
             <p><a href=\"http://getgrav.org\">Grav</a> was <i class=\"fa fa-code\"></i> with <i class=\"fa fa-heart\"></i> by <a href=\"http://www.rockettheme.com\">RocketTheme</a>.</p>
         </div>
-    </div>
+    </div> #}
 {% endblock %}
 
 {% block bottom %}
@@ -344,6 +339,6 @@ class __TwigTemplate_7ad7daa9a8a1f1c3446899bbc057bb7d8d3c1fc89c2dacfa8edaa63542e
 
 </body>
 </html>
-", "partials/base.html.twig", "/Applications/MAMP/htdocs/mye2o/grav-admin/user/themes/mye2o-theme/templates/partials/base.html.twig");
+", "partials/base.html.twig", "/home/factoria/carpetagit/mye2o/grav-admin/user/themes/mye2o-theme/templates/partials/base.html.twig");
     }
 }
