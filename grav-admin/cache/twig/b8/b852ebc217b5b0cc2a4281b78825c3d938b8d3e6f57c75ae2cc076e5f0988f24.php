@@ -19,8 +19,8 @@ class __TwigTemplate_6316f84ef4765a880cccbdfe40b2128f0d4eb4caee95a0f30f52668ecce
         echo "<section class=\"banner\">
 
     <div class=\"box-title\">
-        <p class=\"chorrada\">Buena Practica</p>
-        <p class=\"title\">";
+        <p class=\"title-1\">Buena Practica</p>
+        <p class=\"title-2\">";
         // line 5
         echo $this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", array()), "title", array());
         echo "</p>
@@ -50,33 +50,52 @@ class __TwigTemplate_6316f84ef4765a880cccbdfe40b2128f0d4eb4caee95a0f30f52668ecce
         echo "</section>
 <section class=\"row\">
     <div class=\" offset-1 col-10 resumen\">
-    <p>";
+        <p class=\"text-resumen\">";
         // line 19
         echo $this->getAttribute(($context["page"] ?? null), "summary", array(0 => 180), "method");
         echo "</p>
     </div>
 </section>
-<section class=\"row\">
-    <div class=\"offset-1\">
-    ";
+<section class=\"container\">
+    <ul class=\"box-tags row\">
+        ";
         // line 24
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute(($context["page"] ?? null), "taxonomy", array()), "tag", array()));
         foreach ($context['_seq'] as $context["_key"] => $context["tag"]) {
             // line 25
-            echo "        <ul>
-            <li class=\"col-2 tags\">";
-            // line 26
+            echo "        <li class=\"tags col-2\">";
             echo $context["tag"];
             echo "</li>
-        </ul>
-    ";
+        ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['tag'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 29
-        echo "    </div>
+        // line 27
+        echo "    </ul>
+</section>
+<section class=\"container\">
+    <div class=\"row\">
+        <div class=\"offset-1 box-content col-7\">
+            ";
+        // line 32
+        echo $this->getAttribute(($context["page"] ?? null), "content", array());
+        echo "
+        
+        </div>
+        <div class=\" offset-1 col-3\">
+            <div>logo</div>
+            <div>autor</div>
+            <div>descarga</div>
+            <div>mapa</div>
+            <div>galeria imagenes</div>
+            <div>share</div>
+        <div>
+    </div>
+
+
+
 </section>";
     }
 
@@ -92,7 +111,7 @@ class __TwigTemplate_6316f84ef4765a880cccbdfe40b2128f0d4eb4caee95a0f30f52668ecce
 
     public function getDebugInfo()
     {
-        return array (  79 => 29,  70 => 26,  67 => 25,  63 => 24,  55 => 19,  50 => 16,  41 => 13,  37 => 11,  33 => 10,  25 => 5,  19 => 1,);
+        return array (  83 => 32,  76 => 27,  67 => 25,  63 => 24,  55 => 19,  50 => 16,  41 => 13,  37 => 11,  33 => 10,  25 => 5,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -108,8 +127,8 @@ class __TwigTemplate_6316f84ef4765a880cccbdfe40b2128f0d4eb4caee95a0f30f52668ecce
         return new Twig_Source("<section class=\"banner\">
 
     <div class=\"box-title\">
-        <p class=\"chorrada\">Buena Practica</p>
-        <p class=\"title\">{{page.header.title}}</p>
+        <p class=\"title-1\">Buena Practica</p>
+        <p class=\"title-2\">{{page.header.title}}</p>
     </div>
 
 </section>
@@ -123,17 +142,34 @@ class __TwigTemplate_6316f84ef4765a880cccbdfe40b2128f0d4eb4caee95a0f30f52668ecce
 </section>
 <section class=\"row\">
     <div class=\" offset-1 col-10 resumen\">
-    <p>{{page.summary(180)}}</p>
+        <p class=\"text-resumen\">{{page.summary(180)}}</p>
     </div>
 </section>
-<section class=\"row\">
-    <div class=\"offset-1\">
-    {% for tag in page.taxonomy.tag %}
-        <ul>
-            <li class=\"col-2 tags\">{{tag}}</li>
-        </ul>
-    {% endfor %}
+<section class=\"container\">
+    <ul class=\"box-tags row\">
+        {% for tag in page.taxonomy.tag %}
+        <li class=\"tags col-2\">{{tag}}</li>
+        {% endfor %}
+    </ul>
+</section>
+<section class=\"container\">
+    <div class=\"row\">
+        <div class=\"offset-1 box-content col-7\">
+            {{page.content}}
+        
+        </div>
+        <div class=\" offset-1 col-3\">
+            <div>logo</div>
+            <div>autor</div>
+            <div>descarga</div>
+            <div>mapa</div>
+            <div>galeria imagenes</div>
+            <div>share</div>
+        <div>
     </div>
+
+
+
 </section>", "partials/ficha-final.html.twig", "/home/factoria/carpetagit/mye2o/grav-admin/user/themes/mye2o-theme/templates/partials/ficha-final.html.twig");
     }
 }
