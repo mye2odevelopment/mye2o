@@ -129,7 +129,7 @@ class __TwigTemplate_7ad7daa9a8a1f1c3446899bbc057bb7d8d3c1fc89c2dacfa8edaa63542e
         $this->getAttribute(($context["assets"] ?? null), "addCss", array(0 => "https://unpkg.com/purecss@1.0.0/build/pure-min.css", 1 => 100), "method");
         // line 19
         echo "        ";
-        $this->getAttribute(($context["assets"] ?? null), "addCss", array(0 => "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css", 1 => 99), "method");
+        $this->getAttribute(($context["assets"] ?? null), "addCss", array(0 => "https://use.fontawesome.com/releases/v5.4.1/css/all.css", 1 => 99), "method");
         // line 20
         echo "        ";
         $this->getAttribute(($context["assets"] ?? null), "addCss", array(0 => "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css", 1 => 96), "method");
@@ -280,7 +280,7 @@ class __TwigTemplate_7ad7daa9a8a1f1c3446899bbc057bb7d8d3c1fc89c2dacfa8edaa63542e
     {% block stylesheets %}     
         {% do assets.addCss('theme://css/reset.css', 98) %}
         {% do assets.addCss('https://unpkg.com/purecss@1.0.0/build/pure-min.css', 100) %}
-        {% do assets.addCss('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', 99) %}
+        {% do assets.addCss('https://use.fontawesome.com/releases/v5.4.1/css/all.css', 99) %}
         {% do assets.addCss('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css', 96)  %}
         {% do assets.addCss('theme://css-compiled/ficha.css', 95) %}
         {% do assets.addCss('theme://css-compiled/fichaTest.css', 94) %}

@@ -82,16 +82,51 @@ class __TwigTemplate_6316f84ef4765a880cccbdfe40b2128f0d4eb4caee95a0f30f52668ecce
         // line 32
         echo $this->getAttribute(($context["page"] ?? null), "content", array());
         echo "
-        
+
         </div>
-        <div class=\" offset-1 col-3\">
-            <div>logo</div>
-            <div>autor</div>
-            <div>descarga</div>
-            <div>mapa</div>
-            <div>galeria imagenes</div>
-            <div>share</div>
-        <div>
+        <div class=\"offset-1 col-3\">
+            <div class=\"entidad ";
+        // line 36
+        echo $this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", array()), "entidad", array());
+        echo "\"></div>
+            <div class=\"autor\">
+                <p>";
+        // line 38
+        echo $this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", array()), "autor", array());
+        echo "<img src=\"";
+        echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->urlFunc("theme://images/contactAuthor.png");
+        echo "\" alt=\"\" height=\"80\"></p>
+                ";
+        // line 39
+        echo $this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", array()), "puesto", array());
+        echo "
+            </div>
+            <div class=\"btn-download\"><button>imprimir</button><button>descarga</button></div>
+            <div class=\"localidad ";
+        // line 42
+        echo $this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", array()), "localidad", array());
+        echo "\"></div>
+            <div class=\"gallery-images\">
+                ";
+        // line 44
+        $context['_parent'] = $context;
+        $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute(($context["page"] ?? null), "media", array()), "images", array()));
+        foreach ($context['_seq'] as $context["_key"] => $context["image"]) {
+            // line 45
+            echo "                ";
+            echo $this->getAttribute($context["image"], "html", array());
+            echo "
+                ";
+        }
+        $_parent = $context['_parent'];
+        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['image'], $context['_parent'], $context['loop']);
+        $context = array_intersect_key($context, $_parent) + $_parent;
+        // line 47
+        echo "            </div>
+            <div class=\"share\">
+                    <i class=\"fab fa-facebook-f fa-2x\"></i><i class=\"fab fa-twitter-square fa-2x\"></i><i class=\"fab fa-instagram fa-2x\"></i>
+            </div>
+        </div>
     </div>
 
 
@@ -111,7 +146,7 @@ class __TwigTemplate_6316f84ef4765a880cccbdfe40b2128f0d4eb4caee95a0f30f52668ecce
 
     public function getDebugInfo()
     {
-        return array (  83 => 32,  76 => 27,  67 => 25,  63 => 24,  55 => 19,  50 => 16,  41 => 13,  37 => 11,  33 => 10,  25 => 5,  19 => 1,);
+        return array (  125 => 47,  116 => 45,  112 => 44,  107 => 42,  101 => 39,  95 => 38,  90 => 36,  83 => 32,  76 => 27,  67 => 25,  63 => 24,  55 => 19,  50 => 16,  41 => 13,  37 => 11,  33 => 10,  25 => 5,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -156,16 +191,25 @@ class __TwigTemplate_6316f84ef4765a880cccbdfe40b2128f0d4eb4caee95a0f30f52668ecce
     <div class=\"row\">
         <div class=\"offset-1 box-content col-7\">
             {{page.content}}
-        
+
         </div>
-        <div class=\" offset-1 col-3\">
-            <div>logo</div>
-            <div>autor</div>
-            <div>descarga</div>
-            <div>mapa</div>
-            <div>galeria imagenes</div>
-            <div>share</div>
-        <div>
+        <div class=\"offset-1 col-3\">
+            <div class=\"entidad {{page.header.entidad}}\"></div>
+            <div class=\"autor\">
+                <p>{{page.header.autor}}<img src=\"{{ url('theme://images/contactAuthor.png') }}\" alt=\"\" height=\"80\"></p>
+                {{page.header.puesto}}
+            </div>
+            <div class=\"btn-download\"><button>imprimir</button><button>descarga</button></div>
+            <div class=\"localidad {{page.header.localidad}}\"></div>
+            <div class=\"gallery-images\">
+                {% for image in page.media.images %}
+                {{ image.html }}
+                {% endfor %}
+            </div>
+            <div class=\"share\">
+                    <i class=\"fab fa-facebook-f fa-2x\"></i><i class=\"fab fa-twitter-square fa-2x\"></i><i class=\"fab fa-instagram fa-2x\"></i>
+            </div>
+        </div>
     </div>
 
 

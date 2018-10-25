@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* breadcrumbs start*/
 .breadcrumb {
   background-color: white;
@@ -148,6 +149,7 @@ article {
   font-size: 8px; }
 
 .box-tags {
+  margin-top: 50px;
   margin-left: 50px; }
 
 .tags {
@@ -163,5 +165,46 @@ ul {
   height: 1000px;
   overflow: scroll;
   content: ""; }
+
+.entidad {
+  height: 200px; }
+
+.autor p {
+  font-weight: bold; }
+.autor img {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px; }
+
+.btn-download {
+  margin-top: 50px; }
+
+.gallery-images img {
+  width: 250px;
+  height: 250px;
+  border-radius: 25%;
+  margin-top: 50px; }
+
+.share {
+  margin-top: 50px;
+  margin-left: 40px; }
+  .share i {
+    padding-left: 20px; }
+
+.Tomillo {
+  background-image: url("../images/entidades/tomillo.svg");
+  background-repeat: no-repeat;
+  content: ""; }
+
+.Peñascal {
+  background-image: url("../images/entidades/peñascal.png");
+  background-repeat: no-repeat;
+  content: ""; }
+
+.castilla-leon {
+  background-image: url("../images/localidades/map.png");
+  background-repeat: no-repeat;
+  content: "";
+  padding: 160px; }
 
 /*# sourceMappingURL=ficha.css.map */

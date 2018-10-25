@@ -1,5 +1,6 @@
 ---
-title: 'Buena practica algo algo adsis'
+title: 'Buena practica'
+media_order: 'foto12.jpg,foto13.jpg,foto1.jpg,grav-homepage.jpg'
 taxonomy:
     category:
         - Educacion
@@ -8,7 +9,8 @@ taxonomy:
         - 'Formación dual -Formación en Alternancia'
         - 'Formación práctica'
 slug: el-llindar
-autor: 'Equipo de Entrenamiento para el Empleo'
+autor: 'Conchi Corona'
+puesto: 'Equipo de Entrenamiento para el Empleo'
 entidad: Peñascal
 localidad: castilla-leon
 ---

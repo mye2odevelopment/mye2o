@@ -29,9 +29,9 @@ class __TwigTemplate_cecf0bc7e58fe4d52c48795e5cd446b868c8191c7aa4d5ef352fcc41c29
     {
         // line 5
         echo "    ";
-        $this->loadTemplate("partials/ficha-final.html.twig", "ficha.html.twig", 5)->display($context);
+        $this->loadTemplate("partials/skeleton-ficha.html.twig", "ficha.html.twig", 5)->display($context);
         // line 6
-        echo "    
+        echo "
 ";
     }
 
@@ -64,8 +64,8 @@ class __TwigTemplate_cecf0bc7e58fe4d52c48795e5cd446b868c8191c7aa4d5ef352fcc41c29
 
 
 {% block content %}
-    {% include 'partials/ficha-final.html.twig' %}
-    
+    {% include 'partials/skeleton-ficha.html.twig' %}
+
 {% endblock %}", "ficha.html.twig", "/home/factoria/carpetagit/mye2o/grav-admin/user/themes/mye2o-theme/templates/ficha.html.twig");
     }
 }

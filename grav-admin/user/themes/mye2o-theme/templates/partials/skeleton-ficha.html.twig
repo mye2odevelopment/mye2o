@@ -30,16 +30,25 @@
     <div class="row">
         <div class="offset-1 box-content col-7">
             {{page.content}}
-        
+
         </div>
-        <div class=" offset-1 col-3">
-            <div>logo</div>
-            <div>autor</div>
-            <div>descarga</div>
-            <div>mapa</div>
-            <div>galeria imagenes</div>
-            <div>share</div>
-        <div>
+        <div class="offset-1 col-3">
+            <div class="entidad {{page.header.entidad}}"></div>
+            <div class="autor">
+                <p>{{page.header.autor}}<img src="{{ url('theme://images/contactAuthor.png') }}" alt="" height="80"></p>
+                {{page.header.puesto}}
+            </div>
+            <div class="btn-download"><button>imprimir</button><button>descarga</button></div>
+            <div class="localidad {{page.header.localidad}}"></div>
+            <div class="gallery-images">
+                {% for image in page.media.images %}
+                {{ image.html }}
+                {% endfor %}
+            </div>
+            <div class="share">
+                    <i class="fab fa-facebook-f fa-2x"></i><i class="fab fa-twitter-square fa-2x"></i><i class="fab fa-instagram fa-2x"></i>
+            </div>
+        </div>
     </div>
 
 

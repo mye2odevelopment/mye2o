@@ -1,31 +1,31 @@
+/* breadcrumbs start*/
 
-   
-   /* breadcrumbs start*/
-    
-    .breadcrumb {
-        background-color: white;
-        margin: 20px;
-        font-size: 20px;
-        color: #646464;   
+.breadcrumb {
+    background-color: white;
+    margin: 20px;
+    font-size: 20px;
+    color: #646464;
 
-    }
-    
-    .breadcrumb li a{
-        color: #646464;
-    }
-    /* main category */
-    .categoriaBread {
-        font-size: 20px;
-    }
-    /* current category */
-    .currentCategoria {
-        font-size: 17px;
-        text-align: bottom;
-        margin-top: 2.5px;
-        font-style: italic;
-    }
-    
-    /* breadcrumbs end*/
+}
+
+.breadcrumb li a {
+    color: #646464;
+}
+
+/* main category */
+.categoriaBread {
+    font-size: 20px;
+}
+
+/* current category */
+.currentCategoria {
+    font-size: 17px;
+    text-align: bottom;
+    margin-top: 2.5px;
+    font-style: italic;
+}
+
+/* breadcrumbs end*/
 
 
 article {
@@ -35,7 +35,7 @@ article {
 
 /* titol article */
 .text-right {
-    font-size: 38px;  
+    font-size: 38px;
     color: #646464;
     // font-family: Arial, Helvetica, sans-serif;
 }
@@ -45,6 +45,7 @@ article {
     margin-bottom: 60px;
     color: #646464;
 }
+
 /* standard format text */
 .text-justify {
     font-family: 'Raleway', sans-serif;
@@ -58,6 +59,7 @@ article {
     margin-top: 30px;
     padding: 11px;
 }
+
 /* ver mas scroll style */
 .verMas {
     color: #4b4343;
@@ -100,7 +102,7 @@ article {
 
 
 .testBackColor {
-    background-color:#C4C4C4;
+    background-color: #C4C4C4;
     color: white;
     margin-top: 100px;
     margin-bottom: 40px;
@@ -144,8 +146,9 @@ article {
 }
 
 .form-group {
-margin: 40px;
-width: 680px;;
+    margin: 40px;
+    width: 680px;
+    ;
 }
 
 
@@ -158,6 +161,112 @@ width: 680px;;
     height: 30px;
 }
 
-// @import 'fichaTest';
+.banner {
+    background: url('../images/foto11.jpg') center center no-repeat;
+    background-size: cover;
+    height: 430px;
 
-@import 'fichaFinal'
+}
+
+.box-title {
+    background: linear-gradient(to right, rgba(39, 52, 139, 1) 0%, rgba(33, 136, 202, 1) 100%);
+    width: 59vw;
+    max-height: 100;
+    position: relative;
+    float: right;
+    margin-top: 220px;
+
+    .title-1 {
+        color: aliceblue;
+        padding-top: 10px;
+        padding-left: 30px;
+
+    }
+}
+
+.title-2 {
+
+    padding-left: 30px;
+    padding-bottom: 30px;
+    color: aliceblue;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.resumen {
+    height: 200px;
+    border: 1px solid black;
+
+}
+
+.text-resumen {
+    padding: 15px;
+    font-size: 8px;
+}
+
+.box-tags {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.tags {
+    font-size: 12px;
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+.box-content {
+    height: 1000px;
+    overflow: scroll;
+    content: "";
+}
+
+.entidad {
+    height: 200px;
+
+}
+
+.autor {
+    p {
+        font-weight: bold;
+    }
+
+    img {
+        width: 30px;
+        height: 30px;
+        margin-left: 10px;
+    }
+}
+
+.btn-download {
+    margin-top: 50px;
+}
+
+.gallery-images {
+
+    img {
+        width: 250px;
+        height: 250px;
+        border-radius: 25%;
+        margin-top: 50px;
+
+    }
+}
+
+.share {
+    margin-top: 50px;
+    margin-left: 40px;
+
+    i {
+        padding-left: 20px;
+    }
+}
+
+@import 'entidades';
+@import 'localidades';
