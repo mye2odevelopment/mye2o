@@ -2,18 +2,18 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/factoria/carpetagit/mye2o/grav-admin/user/themes/mye2o-theme/blueprints.yaml',
-    'modified' => 1539704762,
+    'modified' => 1540902745,
     'data' => [
         'name' => 'Mye2o Theme',
         'version' => '0.1.0',
         'description' => 'cool theme for mye2o',
         'icon' => 'rebel',
         'author' => [
-            'name' => 'Ruben-Santos_Gabriele',
-            'email' => 'mye2oproyecto@gmail.com'
+            'name' => 'Ruben-Santos-Gabriele',
+            'email' => 'mye2odevelopment@gmail.com'
         ],
         'homepage' => 'https://github.com/ruben-santos-gabriele/grav-theme-mye2o-theme',
-        'demo' => 'http://demo.yoursite.com',
+        'demo' => NULL,
         'keywords' => 'grav, theme, etc',
         'bugs' => 'https://github.com/ruben-santos-gabriele/grav-theme-mye2o-theme/issues',
         'readme' => 'https://github.com/ruben-santos-gabriele/grav-theme-mye2o-theme/blob/develop/README.md',

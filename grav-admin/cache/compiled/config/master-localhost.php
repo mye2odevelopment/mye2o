@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1539791202,
-    'checksum' => '13450e6e5d7fbc298d849cd4c07c9ca2',
+    'timestamp' => 1540904262,
+    'checksum' => '5e0a98cbf17aaeafa82cb7fae9b009db',
     'files' => [
         'user/config' => [
             'media' => [
@@ -23,7 +23,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1539705780
+                'modified' => 1540904262
             ],
             'themes/mye2o-theme' => [
                 'file' => 'user/config/themes/mye2o-theme.yaml',
@@ -41,7 +41,7 @@ return [
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1539095241
+                'modified' => 1540902823
             ],
             'streams' => [
                 'file' => 'system/config/streams.yaml',
@@ -567,7 +567,7 @@ return [
         ],
         'site' => [
             'title' => 'Grav',
-            'default_lang' => 'en',
+            'default_lang' => 'es',
             'author' => [
                 'name' => 'Joe Bloggs',
                 'email' => 'joe@example.com'
@@ -779,7 +779,8 @@ return [
                 'allowed_fallback_types' => [
                     
                 ],
-                'auto_metadata_exif' => false
+                'auto_metadata_exif' => false,
+                'upload_limit' => 2097152
             ],
             'session' => [
                 'enabled' => true,

@@ -10,6 +10,7 @@ class __TwigTemplate_cecf0bc7e58fe4d52c48795e5cd446b868c8191c7aa4d5ef352fcc41c29
         // line 1
         $this->parent = $this->loadTemplate("partials/base.html.twig", "ficha.html.twig", 1);
         $this->blocks = array(
+            'stylesheets' => array($this, 'block_stylesheets'),
             'content' => array($this, 'block_content'),
         );
     }
@@ -24,15 +25,25 @@ class __TwigTemplate_cecf0bc7e58fe4d52c48795e5cd446b868c8191c7aa4d5ef352fcc41c29
         $this->parent->display($context, array_merge($this->blocks, $blocks));
     }
 
-    // line 4
-    public function block_content($context, array $blocks = array())
+    // line 3
+    public function block_stylesheets($context, array $blocks = array())
     {
+        // line 4
+        echo "    ";
+        $this->getAttribute(($context["assets"] ?? null), "addCss", array(0 => "theme://css-compiled/ficha.css", 1 => 95), "method");
         // line 5
         echo "    ";
-        $this->loadTemplate("partials/skeleton-ficha.html.twig", "ficha.html.twig", 5)->display($context);
-        // line 6
+        $this->displayParentBlock("stylesheets", $context, $blocks);
         echo "
 ";
+    }
+
+    // line 8
+    public function block_content($context, array $blocks = array())
+    {
+        // line 9
+        echo "    ";
+        $this->loadTemplate("partials/skeleton-ficha.html.twig", "ficha.html.twig", 9)->display($context);
     }
 
     public function getTemplateName()
@@ -47,7 +58,7 @@ class __TwigTemplate_cecf0bc7e58fe4d52c48795e5cd446b868c8191c7aa4d5ef352fcc41c29
 
     public function getDebugInfo()
     {
-        return array (  34 => 6,  31 => 5,  28 => 4,  11 => 1,);
+        return array (  45 => 9,  42 => 8,  35 => 5,  32 => 4,  29 => 3,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -62,10 +73,13 @@ class __TwigTemplate_cecf0bc7e58fe4d52c48795e5cd446b868c8191c7aa4d5ef352fcc41c29
     {
         return new Twig_Source("{% extends 'partials/base.html.twig' %}
 
+{% block stylesheets %}
+    {% do assets.addCss('theme://css-compiled/ficha.css', 95) %}
+    {{ parent() }}
+{% endblock %}
 
 {% block content %}
     {% include 'partials/skeleton-ficha.html.twig' %}
-
 {% endblock %}", "ficha.html.twig", "/home/factoria/carpetagit/mye2o/grav-admin/user/themes/mye2o-theme/templates/ficha.html.twig");
     }
 }

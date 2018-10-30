@@ -36,32 +36,32 @@ class __TwigTemplate_7ad7daa9a8a1f1c3446899bbc057bb7d8d3c1fc89c2dacfa8edaa63542e
 ";
         // line 5
         $this->displayBlock('head', $context, $blocks);
-        // line 37
+        // line 30
         echo "</head>
 <body id=\"top\" class=\"";
-        // line 38
+        // line 31
         echo $this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", array()), "body_classes", array());
         echo "\">
 
 ";
-        // line 40
+        // line 33
         $this->displayBlock('header', $context, $blocks);
-        // line 55
+        // line 48
         echo "
 ";
-        // line 56
+        // line 49
         $this->displayBlock('body', $context, $blocks);
-        // line 63
+        // line 56
         echo "
 ";
-        // line 64
+        // line 57
         $this->displayBlock('footer', $context, $blocks);
-        // line 71
+        // line 64
         echo "
 ";
-        // line 72
+        // line 65
         $this->displayBlock('bottom', $context, $blocks);
-        // line 75
+        // line 68
         echo "
 </body>
 </html>
@@ -101,15 +101,15 @@ class __TwigTemplate_7ad7daa9a8a1f1c3446899bbc057bb7d8d3c1fc89c2dacfa8edaa63542e
     ";
         // line 16
         $this->displayBlock('stylesheets', $context, $blocks);
-        // line 26
+        // line 21
         echo "    ";
         echo $this->getAttribute(($context["assets"] ?? null), "css", array(), "method");
         echo "
 
     ";
-        // line 28
+        // line 23
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 34
+        // line 27
         echo "    ";
         echo $this->getAttribute(($context["assets"] ?? null), "js", array(), "method");
         echo "
@@ -126,111 +126,97 @@ class __TwigTemplate_7ad7daa9a8a1f1c3446899bbc057bb7d8d3c1fc89c2dacfa8edaa63542e
         $this->getAttribute(($context["assets"] ?? null), "addCss", array(0 => "theme://css/reset.css", 1 => 98), "method");
         // line 18
         echo "        ";
-        $this->getAttribute(($context["assets"] ?? null), "addCss", array(0 => "https://unpkg.com/purecss@1.0.0/build/pure-min.css", 1 => 100), "method");
+        $this->getAttribute(($context["assets"] ?? null), "addCss", array(0 => "https://use.fontawesome.com/releases/v5.4.1/css/all.css", 1 => 99), "method");
         // line 19
         echo "        ";
-        $this->getAttribute(($context["assets"] ?? null), "addCss", array(0 => "https://use.fontawesome.com/releases/v5.4.1/css/all.css", 1 => 99), "method");
-        // line 20
-        echo "        ";
         $this->getAttribute(($context["assets"] ?? null), "addCss", array(0 => "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css", 1 => 96), "method");
-        // line 21
-        echo "        ";
-        $this->getAttribute(($context["assets"] ?? null), "addCss", array(0 => "theme://css-compiled/ficha.css", 1 => 95), "method");
-        // line 22
-        echo "        ";
-        $this->getAttribute(($context["assets"] ?? null), "addCss", array(0 => "theme://css-compiled/fichaTest.css", 1 => 94), "method");
-        // line 23
-        echo "
-
-    ";
-    }
-
-    // line 28
-    public function block_javascripts($context, array $blocks = array())
-    {
-        // line 29
-        echo "        ";
-        // line 30
-        echo "        
-        ";
-        // line 31
-        $this->getAttribute(($context["assets"] ?? null), "addJs", array(0 => "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"), "method");
-        // line 32
-        echo "        ";
-        $this->getAttribute(($context["assets"] ?? null), "addJs", array(0 => "theme://js/app.js", 1 => 99), "method");
-        // line 33
+        // line 20
         echo "    ";
     }
 
-    // line 40
+    // line 23
+    public function block_javascripts($context, array $blocks = array())
+    {
+        echo "        
+        ";
+        // line 24
+        $this->getAttribute(($context["assets"] ?? null), "addJs", array(0 => "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"), "method");
+        // line 25
+        echo "        ";
+        $this->getAttribute(($context["assets"] ?? null), "addJs", array(0 => "theme://js/app.js", 1 => 99), "method");
+        // line 26
+        echo "    ";
+    }
+
+    // line 33
     public function block_header($context, array $blocks = array())
     {
-        // line 41
+        // line 34
         echo "    <div class=\"header\">
         <div class=\"wrapper padding\">
             <a class=\"logo left\" href=\"";
-        // line 43
+        // line 36
         echo (((($context["base_url"] ?? null) == "")) ? ("/") : (($context["base_url"] ?? null)));
         echo "\">
                 <i class=\"fa fa-rebel\"></i>
                 ";
-        // line 45
+        // line 38
         echo $this->getAttribute($this->getAttribute(($context["config"] ?? null), "site", array()), "title", array());
         echo "
             </a>
             ";
-        // line 47
+        // line 40
         $this->displayBlock('header_navigation', $context, $blocks);
-        // line 52
+        // line 45
         echo "        </div>
     </div>
 ";
     }
 
-    // line 47
+    // line 40
     public function block_header_navigation($context, array $blocks = array())
     {
-        // line 48
+        // line 41
         echo "            <nav class=\"main-nav\">
                 ";
-        // line 49
-        $this->loadTemplate("partials/navigation.html.twig", "partials/base.html.twig", 49)->display($context);
-        // line 50
+        // line 42
+        $this->loadTemplate("partials/navigation.html.twig", "partials/base.html.twig", 42)->display($context);
+        // line 43
         echo "            </nav>
             ";
     }
 
-    // line 56
+    // line 49
     public function block_body($context, array $blocks = array())
     {
-        // line 57
+        // line 50
         echo "    <section id=\"body\">
         <div class=\"wrapper padding\">
         ";
-        // line 59
+        // line 52
         $this->displayBlock('content', $context, $blocks);
-        // line 60
+        // line 53
         echo "        </div>
     </section>
 ";
     }
 
-    // line 59
+    // line 52
     public function block_content($context, array $blocks = array())
     {
     }
 
-    // line 64
+    // line 57
     public function block_footer($context, array $blocks = array())
     {
-        // line 65
+        // line 58
         echo "    ";
     }
 
-    // line 72
+    // line 65
     public function block_bottom($context, array $blocks = array())
     {
-        // line 73
+        // line 66
         echo "    ";
         echo $this->getAttribute(($context["assets"] ?? null), "js", array(0 => "bottom"), "method");
         echo "
@@ -249,7 +235,7 @@ class __TwigTemplate_7ad7daa9a8a1f1c3446899bbc057bb7d8d3c1fc89c2dacfa8edaa63542e
 
     public function getDebugInfo()
     {
-        return array (  234 => 73,  231 => 72,  227 => 65,  224 => 64,  219 => 59,  213 => 60,  211 => 59,  207 => 57,  204 => 56,  199 => 50,  197 => 49,  194 => 48,  191 => 47,  185 => 52,  183 => 47,  178 => 45,  173 => 43,  169 => 41,  166 => 40,  162 => 33,  159 => 32,  157 => 31,  154 => 30,  152 => 29,  149 => 28,  143 => 23,  140 => 22,  137 => 21,  134 => 20,  131 => 19,  128 => 18,  126 => 17,  121 => 16,  113 => 34,  111 => 28,  105 => 26,  103 => 16,  98 => 14,  94 => 13,  91 => 12,  89 => 11,  78 => 7,  75 => 6,  72 => 5,  65 => 75,  63 => 72,  60 => 71,  58 => 64,  55 => 63,  53 => 56,  50 => 55,  48 => 40,  43 => 38,  40 => 37,  38 => 5,  33 => 3,  30 => 2,  28 => 1,);
+        return array (  220 => 66,  217 => 65,  213 => 58,  210 => 57,  205 => 52,  199 => 53,  197 => 52,  193 => 50,  190 => 49,  185 => 43,  183 => 42,  180 => 41,  177 => 40,  171 => 45,  169 => 40,  164 => 38,  159 => 36,  155 => 34,  152 => 33,  148 => 26,  145 => 25,  143 => 24,  138 => 23,  134 => 20,  131 => 19,  128 => 18,  126 => 17,  121 => 16,  113 => 27,  111 => 23,  105 => 21,  103 => 16,  98 => 14,  94 => 13,  91 => 12,  89 => 11,  78 => 7,  75 => 6,  72 => 5,  65 => 68,  63 => 65,  60 => 64,  58 => 57,  55 => 56,  53 => 49,  50 => 48,  48 => 33,  43 => 31,  40 => 30,  38 => 5,  33 => 3,  30 => 2,  28 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -279,25 +265,18 @@ class __TwigTemplate_7ad7daa9a8a1f1c3446899bbc057bb7d8d3c1fc89c2dacfa8edaa63542e
 
     {% block stylesheets %}     
         {% do assets.addCss('theme://css/reset.css', 98) %}
-        {% do assets.addCss('https://unpkg.com/purecss@1.0.0/build/pure-min.css', 100) %}
         {% do assets.addCss('https://use.fontawesome.com/releases/v5.4.1/css/all.css', 99) %}
         {% do assets.addCss('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css', 96)  %}
-        {% do assets.addCss('theme://css-compiled/ficha.css', 95) %}
-        {% do assets.addCss('theme://css-compiled/fichaTest.css', 94) %}
-
-
     {% endblock %}
     {{ assets.css() }}
 
-    {% block javascripts %}
-        {# {% do assets.addJs('jquery', 100) %} #}
-        
+    {% block javascripts %}        
         {% do assets.addJs('https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js')%}
         {% do assets.addJs('theme://js/app.js', 99) %}
     {% endblock %}
     {{ assets.js() }}
 
-{% endblock head%}
+{% endblock head %}
 </head>
 <body id=\"top\" class=\"{{ page.header.body_classes }}\">
 

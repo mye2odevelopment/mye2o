@@ -15,25 +15,18 @@
 
     {% block stylesheets %}     
         {% do assets.addCss('theme://css/reset.css', 98) %}
-        {% do assets.addCss('https://unpkg.com/purecss@1.0.0/build/pure-min.css', 100) %}
         {% do assets.addCss('https://use.fontawesome.com/releases/v5.4.1/css/all.css', 99) %}
         {% do assets.addCss('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css', 96)  %}
-        {% do assets.addCss('theme://css-compiled/ficha.css', 95) %}
-        {% do assets.addCss('theme://css-compiled/fichaTest.css', 94) %}
-
-
     {% endblock %}
     {{ assets.css() }}
 
-    {% block javascripts %}
-        {# {% do assets.addJs('jquery', 100) %} #}
-        
+    {% block javascripts %}        
         {% do assets.addJs('https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js')%}
         {% do assets.addJs('theme://js/app.js', 99) %}
     {% endblock %}
     {{ assets.js() }}
 
-{% endblock head%}
+{% endblock head %}
 </head>
 <body id="top" class="{{ page.header.body_classes }}">
 
