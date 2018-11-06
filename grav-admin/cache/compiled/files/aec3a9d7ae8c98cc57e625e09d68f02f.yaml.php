@@ -2,9 +2,9 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/factoria/carpetagit/mye2o/grav-admin/user/config/site.yaml',
-    'modified' => 1539095242,
+    'modified' => 1541520035,
     'data' => [
-        'title' => 'Grav',
+        'title' => 'MyE2O',
         'author' => [
             'name' => 'Joe Bloggs',
             'email' => 'joe@example.com'
