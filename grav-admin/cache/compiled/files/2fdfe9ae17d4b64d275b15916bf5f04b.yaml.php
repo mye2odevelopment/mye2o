@@ -2,9 +2,9 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/factoria/carpetagit/mye2o/grav-admin/user/accounts/admin.yaml',
-    'modified' => 1540904394,
+    'modified' => 1541605893,
     'data' => [
-        'email' => 'gabrielescano.bcn@gmail.com',
+        'email' => 'mye2odevelopment@gmail.com',
         'fullname' => 'Admin',
         'title' => 'Administrator',
         'state' => 'enabled',
@@ -30,7 +30,7 @@ return [
                 'login' => 'true'
             ]
         ],
-        'hashed_password' => '$2y$10$d/fd42B52gZ5NpP3uE3AkOe/aA6pMtMgKGcmbaWS/cGAjqRsVoZbS',
+        'hashed_password' => '$2y$10$BFAwhpND7IH3bNBtRvjV6OcmuE59nInqq4uSs2XwZirW6BNWzdXf.',
         'language' => 'en',
         'twofa_enabled' => false,
         'twofa_secret' => 'JWERABN7HPFJVEYR4N5FJOQAX4LYYI4V'

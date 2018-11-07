@@ -2,7 +2,9 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,400i,500,600,700,800");
 /* Main navigation */
 @import url("menu.css");
-
+body{
+  overflow-x: hidden;
+}
 /*-------- Preloader --------*/
 #preloader {
   position: fixed;
