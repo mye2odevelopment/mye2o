@@ -38,17 +38,12 @@ class __TwigTemplate_cecf0bc7e58fe4d52c48795e5cd446b868c8191c7aa4d5ef352fcc41c29
 ";
     }
 
-    // line 7
+    // line 8
     public function block_content($context, array $blocks = array())
     {
-        // line 8
-        echo "    ";
-        $this->loadTemplate("partials/basic-ficha.html.twig", "ficha.html.twig", 8)->display($context);
         // line 9
         echo "    ";
-        echo $this->getAttribute(($context["page"] ?? null), "content", array());
-        echo "
-";
+        $this->loadTemplate("partials/skeleton-ficha.html.twig", "ficha.html.twig", 9)->display($context);
     }
 
     public function getTemplateName()
@@ -63,7 +58,7 @@ class __TwigTemplate_cecf0bc7e58fe4d52c48795e5cd446b868c8191c7aa4d5ef352fcc41c29
 
     public function getDebugInfo()
     {
-        return array (  48 => 9,  45 => 8,  42 => 7,  35 => 5,  32 => 4,  29 => 3,  11 => 1,);
+        return array (  45 => 9,  42 => 8,  35 => 5,  32 => 4,  29 => 3,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -82,9 +77,9 @@ class __TwigTemplate_cecf0bc7e58fe4d52c48795e5cd446b868c8191c7aa4d5ef352fcc41c29
     {% do assets.addCss('theme://css-compiled/ficha.css', 95) %}
     {{ parent() }}
 {% endblock %}
+
 {% block content %}
-    {% include 'partials/basic-ficha.html.twig' %}
-    {{ page.content }}
-{% endblock %}", "ficha.html.twig", "/Applications/MAMP/htdocs/mye2o/grav-admin/user/themes/mye2o-theme/templates/ficha.html.twig");
+    {% include 'partials/skeleton-ficha.html.twig' %}
+{% endblock %}", "ficha.html.twig", "/home/factoria/carpetagit/mye2o/grav-admin/user/themes/mye2o-theme/templates/ficha.html.twig");
     }
 }

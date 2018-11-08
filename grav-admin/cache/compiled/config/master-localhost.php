@@ -1,90 +1,103 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1539009666,
-    'checksum' => '648001769f033d19fcc42273c7c02817',
+    'timestamp' => 1541520037,
+    'checksum' => 'fdda400cc89b5aa3be37f4e26732dc20',
     'files' => [
         'user/config' => [
             'media' => [
                 'file' => 'user/config/media.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095242
             ],
             'security' => [
                 'file' => 'user/config/security.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095242
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1539000188
+                'modified' => 1541520035
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095242
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1539009654
+                'modified' => 1540904262
+            ],
+            'themes/mye2o-theme' => [
+                'file' => 'user/config/themes/mye2o-theme.yaml',
+                'modified' => 1539790730
             ]
         ],
         'system/config' => [
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095241
             ],
             'security' => [
                 'file' => 'system/config/security.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095241
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1539000188
+                'modified' => 1540902823
             ],
             'streams' => [
                 'file' => 'system/config/streams.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095241
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1539000188
+                'modified' => 1539095241
             ]
         ],
         'user/plugins' => [
-            'plugins/markdown-notices' => [
-                'file' => 'user/plugins/markdown-notices/markdown-notices.yaml',
-                'modified' => 1539000189
-            ],
-            'plugins/form' => [
-                'file' => 'user/plugins/form/form.yaml',
-                'modified' => 1539000189
-            ],
-            'plugins/admin' => [
-                'file' => 'user/plugins/admin/admin.yaml',
-                'modified' => 1539000188
-            ],
-            'plugins/problems' => [
-                'file' => 'user/plugins/problems/problems.yaml',
-                'modified' => 1539000189
+            'plugins/error' => [
+                'file' => 'user/plugins/error/error.yaml',
+                'modified' => 1539095242
             ],
             'plugins/devtools' => [
                 'file' => 'user/plugins/devtools/devtools.yaml',
-                'modified' => 1539000189
+                'modified' => 1539095242
             ],
-            'plugins/error' => [
-                'file' => 'user/plugins/error/error.yaml',
-                'modified' => 1539000189
+            'plugins/markdown-notices' => [
+                'file' => 'user/plugins/markdown-notices/markdown-notices.yaml',
+                'modified' => 1539095242
+            ],
+            'plugins/form' => [
+                'file' => 'user/plugins/form/form.yaml',
+                'modified' => 1539095242
+            ],
+            'plugins/admin' => [
+                'file' => 'user/plugins/admin/admin.yaml',
+                'modified' => 1539095242
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/login.yaml',
-                'modified' => 1539000189
+                'modified' => 1539095242
+            ],
+            'plugins/problems' => [
+                'file' => 'user/plugins/problems/problems.yaml',
+                'modified' => 1539095242
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/email.yaml',
-                'modified' => 1539000189
+                'modified' => 1539095242
             ]
         ]
     ],
     'data' => [
         'plugins' => [
+            'error' => [
+                'enabled' => true,
+                'routes' => [
+                    404 => '/error'
+                ]
+            ],
+            'devtools' => [
+                'enabled' => true
+            ],
             'markdown-notices' => [
                 'enabled' => true,
                 'built_in_css' => true,
@@ -173,19 +186,6 @@ return [
                     ]
                 ]
             ],
-            'problems' => [
-                'enabled' => true,
-                'built_in_css' => true
-            ],
-            'devtools' => [
-                'enabled' => true
-            ],
-            'error' => [
-                'enabled' => true,
-                'routes' => [
-                    404 => '/error'
-                ]
-            ],
             'login' => [
                 'enabled' => true,
                 'built_in_css' => true,
@@ -239,6 +239,10 @@ return [
                         'send_welcome_email' => false
                     ]
                 ]
+            ],
+            'problems' => [
+                'enabled' => true,
+                'built_in_css' => true
             ],
             'email' => [
                 'enabled' => true,
@@ -562,8 +566,8 @@ return [
             'salt' => 'e9RvZ7VCy8mJzt'
         ],
         'site' => [
-            'title' => 'Grav',
-            'default_lang' => 'en',
+            'title' => 'MyE2O',
+            'default_lang' => 'es',
             'author' => [
                 'name' => 'Joe Bloggs',
                 'email' => 'joe@example.com'
@@ -775,7 +779,8 @@ return [
                 'allowed_fallback_types' => [
                     
                 ],
-                'auto_metadata_exif' => false
+                'auto_metadata_exif' => false,
+                'upload_limit' => 2097152
             ],
             'session' => [
                 'enabled' => true,
@@ -797,6 +802,14 @@ return [
             'strict_mode' => [
                 'yaml_compat' => true,
                 'twig_compat' => true
+            ]
+        ],
+        'themes' => [
+            'mye2o-theme' => [
+                'enabled' => true,
+                'dropdown' => [
+                    'enabled' => true
+                ]
             ]
         ]
     ]

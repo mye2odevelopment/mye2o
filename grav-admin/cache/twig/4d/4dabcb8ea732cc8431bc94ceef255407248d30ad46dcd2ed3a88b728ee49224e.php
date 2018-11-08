@@ -161,6 +161,6 @@ class __TwigTemplate_c305bfebad2bebb5065ecd71092454b8f1eb5db6687e3d24727cd95114e
     {% endif %}
 
 {% endif %}
-", "forms/fields/section/section.html.twig", "/Applications/MAMP/htdocs/mye2o/grav-admin/user/plugins/admin/themes/grav/templates/forms/fields/section/section.html.twig");
+", "forms/fields/section/section.html.twig", "/home/factoria/carpetagit/mye2o/grav-admin/user/plugins/admin/themes/grav/templates/forms/fields/section/section.html.twig");
     }
 }

@@ -4,7 +4,7 @@
     {% do assets.addCss('theme://css-compiled/ficha.css', 95) %}
     {{ parent() }}
 {% endblock %}
+
 {% block content %}
-    {% include 'partials/basic-ficha.html.twig' %}
-    {{ page.content }}
+    {% include 'partials/skeleton-ficha.html.twig' %}
 {% endblock %}

@@ -71,6 +71,6 @@ class __TwigTemplate_4764d904346a540a7c3bb671e75c76768664a142d350df336de9da4a644
         {{ page.content }}
     </div>
 {% endblock %}
-", "error.html.twig", "/Applications/MAMP/htdocs/mye2o/grav-admin/user/themes/mye2o-theme/templates/error.html.twig");
+", "error.html.twig", "/home/factoria/carpetagit/mye2o/grav-admin/user/themes/mye2o-theme/templates/error.html.twig");
     }
 }

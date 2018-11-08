@@ -88,6 +88,6 @@ class __TwigTemplate_0c6ce78ea903838c4a1b4a23887de7d4eb4cf37557a5fab9f011606a4b7
         </div>
     </a>
 </div>
-", "partials/nav-user-details.html.twig", "/Applications/MAMP/htdocs/mye2o/grav-admin/user/plugins/admin/themes/grav/templates/partials/nav-user-details.html.twig");
+", "partials/nav-user-details.html.twig", "/home/factoria/carpetagit/mye2o/grav-admin/user/plugins/admin/themes/grav/templates/partials/nav-user-details.html.twig");
     }
 }

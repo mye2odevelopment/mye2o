@@ -3,10 +3,10 @@ version: 0.1.0
 description: cool theme for mye2o
 icon: rebel
 author:
-  name: Ruben-Santos_Gabriele
-  email: mye2oproyecto@gmail.com
+  name: Ruben-Santos-Gabriele
+  email: mye2odevelopment@gmail.com
 homepage: https://github.com/ruben-santos-gabriele/grav-theme-mye2o-theme
-demo: http://demo.yoursite.com
+demo: 
 keywords: grav, theme, etc
 bugs: https://github.com/ruben-santos-gabriele/grav-theme-mye2o-theme/issues
 readme: https://github.com/ruben-santos-gabriele/grav-theme-mye2o-theme/blob/develop/README.md
@@ -25,3 +25,5 @@ form:
           0: PLUGIN_ADMIN.DISABLED
         validate:
           type: bool
+
+

@@ -62,6 +62,6 @@ class __TwigTemplate_0f7d17b83b8dca52975b8a75e3c71dce68a95f1b88f46ed1b63f4a2714f
 {% if xss_status is not empty %}
     <div class=\"notice alert\">{{ \"PLUGIN_ADMIN.XSS_ISSUE\"|tu([xss_status])|raw }}</div>
 {% endif %}
-", "forms/fields/xss/xss.html.twig", "/Applications/MAMP/htdocs/mye2o/grav-admin/user/plugins/admin/themes/grav/templates/forms/fields/xss/xss.html.twig");
+", "forms/fields/xss/xss.html.twig", "/home/factoria/carpetagit/mye2o/grav-admin/user/plugins/admin/themes/grav/templates/forms/fields/xss/xss.html.twig");
     }
 }
