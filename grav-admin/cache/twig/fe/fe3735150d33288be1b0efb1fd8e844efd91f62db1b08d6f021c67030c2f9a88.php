@@ -130,8 +130,9 @@ class __TwigTemplate_1d47001af6e8bf4eb7bba4045c92b2c9c1c59e2947a06469f4f9904d3a9
         // line 67
         echo "            <div class=\"entidad ";
         echo $this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", array()), "entidad", array());
-        echo "\"></div>
-
+        echo "\"></div>";
+        // line 68
+        echo "
             ";
         // line 70
         echo "            <div class=\"autor\">
@@ -143,7 +144,7 @@ class __TwigTemplate_1d47001af6e8bf4eb7bba4045c92b2c9c1c59e2947a06469f4f9904d3a9
         echo "\" alt=\"\" height=\"80\"></p>
                 ";
         // line 72
-        echo $this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", array()), "puesto", array());
+        echo $this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", array()), "cargo", array());
         echo "
             </div>
 
@@ -204,7 +205,7 @@ class __TwigTemplate_1d47001af6e8bf4eb7bba4045c92b2c9c1c59e2947a06469f4f9904d3a9
 
     public function getDebugInfo()
     {
-        return array (  182 => 89,  178 => 86,  169 => 84,  165 => 83,  162 => 82,  156 => 79,  152 => 76,  146 => 72,  140 => 71,  137 => 70,  131 => 67,  127 => 64,  120 => 59,  117 => 58,  111 => 53,  103 => 46,  97 => 45,  93 => 44,  89 => 43,  84 => 40,  76 => 33,  73 => 32,  68 => 29,  61 => 23,  54 => 21,  51 => 20,  47 => 18,  43 => 17,  39 => 15,  31 => 8,  28 => 7,  22 => 3,  19 => 1,);
+        return array (  183 => 89,  179 => 86,  170 => 84,  166 => 83,  163 => 82,  157 => 79,  153 => 76,  147 => 72,  141 => 71,  138 => 70,  135 => 68,  131 => 67,  127 => 64,  120 => 59,  117 => 58,  111 => 53,  103 => 46,  97 => 45,  93 => 44,  89 => 43,  84 => 40,  76 => 33,  73 => 32,  68 => 29,  61 => 23,  54 => 21,  51 => 20,  47 => 18,  43 => 17,  39 => 15,  31 => 8,  28 => 7,  22 => 3,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -283,12 +284,12 @@ class __TwigTemplate_1d47001af6e8bf4eb7bba4045c92b2c9c1c59e2947a06469f4f9904d3a9
         <div class=\"offset-1 col-3\">
 
             {# Logo de la entidad que publica la buena practica #}
-            <div class=\"entidad {{page.header.entidad}}\"></div>
+            <div class=\"entidad {{page.header.entidad}}\"></div>{# El logo de la entidad tiene que ser .png o .jpg #}
 
             {# Autor y posicion que ocupa #}
             <div class=\"autor\">
                 <p>{{page.header.autor}}<img src=\"{{ url('theme://images/contactAuthor.png') }}\" alt=\"\" height=\"80\"></p>
-                {{page.header.puesto}}
+                {{page.header.cargo}}
             </div>
 
             {# Botones para imprimir y descargar #}

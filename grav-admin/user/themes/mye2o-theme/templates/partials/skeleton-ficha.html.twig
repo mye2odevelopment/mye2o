@@ -64,12 +64,12 @@
         <div class="offset-1 col-3">
 
             {# Logo de la entidad que publica la buena practica #}
-            <div class="entidad {{page.header.entidad}}"></div>
+            <div class="entidad {{page.header.entidad}}"></div>{# El logo de la entidad tiene que ser .png o .jpg #}
 
             {# Autor y posicion que ocupa #}
             <div class="autor">
                 <p>{{page.header.autor}}<img src="{{ url('theme://images/contactAuthor.png') }}" alt="" height="80"></p>
-                {{page.header.puesto}}
+                {{page.header.cargo}}
             </div>
 
             {# Botones para imprimir y descargar #}

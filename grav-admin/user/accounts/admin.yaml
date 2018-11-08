@@ -21,7 +21,7 @@ access:
     users: 'true'
   site:
     login: 'true'
-hashed_password: $2y$10$BFAwhpND7IH3bNBtRvjV6OcmuE59nInqq4uSs2XwZirW6BNWzdXf.
-language: en
+hashed_password: $2y$10$kVgkRu37PxBW0btyVvZJGukraeevtgswQjwxE4sxnjKfimVXxeJ6W
+language: es
 twofa_enabled: false
 twofa_secret: JWERABN7HPFJVEYR4N5FJOQAX4LYYI4V

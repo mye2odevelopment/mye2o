@@ -1,7 +1,6 @@
 ---
 title: 'Formación Especializada compartida con la Empresa'
-autor: 'Equipo de Formación para el Empleo'
-entidad: Tomillo
+media_order: 'christopher-robin-ebbinghaus-681475-unsplash.jpg,grav-homepage.jpg,im.php.jpeg'
 taxonomy:
     category:
         - PROFESIONALES
@@ -9,10 +8,14 @@ taxonomy:
         - 'Competencias técnico-profesionales'
         - 'Formación dual -Formación en Alternancia'
         - 'Formación práctica'
-slug: tomillo
-visible: true
+slug: peñascal
 routable: true
+visible: true
+autor: 'Equipo de Formación para el Empleo'
+cargo: Educador
+entidad: Peñascal
 ---
+
 ¿Cuál es nuestra meta?
 Mejorar la empleabilidad de jóvenes, para lograr el acceso y mantenimiento al empleo, mediante acciones de formación y orientación sociolaboral.
 

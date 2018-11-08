@@ -10,7 +10,7 @@ taxonomy:
         - 'Formación práctica'
 slug: el-llindar
 autor: 'Conchi Corona'
-puesto: 'Equipo de Entrenamiento para el Empleo'
+cargo: 'Equipo de Entrenamiento para el Empleo'
 entidad: Peñascal
 localidad: castilla-leon
 ---
