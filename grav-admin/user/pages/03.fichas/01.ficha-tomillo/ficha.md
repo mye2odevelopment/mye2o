@@ -8,12 +8,12 @@ taxonomy:
         - 'Competencias técnico-profesionales'
         - 'Formación dual -Formación en Alternancia'
         - 'Formación práctica'
-slug: peñascal
+slug: tomillo
 routable: true
 visible: true
 autor: 'Equipo de Formación para el Empleo'
 cargo: Educador
-entidad: Peñascal
+entidad: Tomillo
 ---
 
 ¿Cuál es nuestra meta?
